@@ -1,0 +1,319 @@
+
+
+/* Pages
+--------------------------------------------- */
+
+/* Top Navigation */
+
+
+html,body
+  height 100%
+
+.responsive-nav
+  position fixed
+  top 0
+  width 100%
+  text-align left
+  line-height 60px
+  height 60px
+  overflow hidden
+  padding 0
+  transition 400ms cubic-bezier(0.19, 1, 0.22, 1)
+  z-index 100
+  
+  .nav-background
+    width 100%
+    height 100%
+    background $wander
+    z-index -999
+    position absolute
+    top -120px
+    transition all 700ms cubic-bezier(0.230, 1.000, 0.320, 1.000)
+
+  a
+    padding-bottom 8px
+  
+  .primary-button
+    padding-bottom 12px
+  
+  +above(800px)
+    height 100px
+    overflow visible 
+  
+  img
+    width auto
+    position relative
+    float left
+    padding 20px
+    top -4px
+    
+    +above(800px)
+      padding 42px 0 0 30px
+      top -6px
+  
+  ul li
+    font-size 20px
+    line-height 150px
+    text-align center
+    margin-top -80px
+    
+    +above(800px)
+      margin-top 0
+      line-height 30px
+  
+  +below(800px)
+    ul
+      margin 100px 0
+  
+  +above(800px)
+    ul
+      display inline-block
+      margin 20px 0 0 40px
+      
+    ul li
+      display inline-block
+      margin 0 20px
+      @extend h5
+      font-size 1.05em
+      transition all 0ms linear
+      
+      +below(890px)
+        margin 0 8px
+  
+  &.active
+    background $wander       
+    
+    ul
+      margin 100px 0
+      
+    +below(800px)
+      height 100%
+      overflow-y auto
+      -webkit-overflow-scrolling touch
+      
+      ul
+        padding-top 50px
+        transform scale(1.1)
+      
+      .primary-button
+        margin 0 auto
+        margin-top 65px
+        transition all 0ms linear
+  
+    .primary-button
+      position relative
+      top 350px
+      align(h)
+
+      +above(800px)
+        width auto
+        position relative
+        padding 20px
+        display block
+        float right
+        margin 28px
+
+.menu 
+  position relative
+  li
+    &:hover
+      & > div
+        visibility visible
+        opacity 1
+  
+  .submenu
+    position absolute
+    left 20000px
+  
+  +above(800px)
+    .submenu
+      opacity 0
+      visibility hidden
+      position absolute
+      left -10px
+      background #202020
+      transition 400ms cubic-bezier(0.19, 1, 0.22, 1)
+      
+      a
+        padding 0
+        display block
+        padding 10px 25px
+        
+        &:hover
+          color $ruben
+          border none
+          background $crusade
+
+.submenu--active
+  display block 
+
+
+/*  Menu Icon  */
+
+$ease = cubic-bezier(0.77, 0, 0.175, 1)
+$duration = 700ms
+
+.menu-icon
+  height 20px
+  cursor pointer
+  position absolute
+  right 0
+  margin 20px 20px 0 0
+  z-index 200
+  
+  +above(800px)
+    top 10000px
+  
+  +above(800px)
+    margin 40px 40px 0 0
+
+.menu-icon__bar
+  width 20px
+  height 4px
+  background $crusade
+  margin-top 3px
+
+.top, .bottom
+  transition all $duration $ease
+
+.middle
+  transition all ($duration/2) $ease ($duration/5)
+
+.animate-top
+  transition all $duration $ease
+  transform translate(0px, 7px) rotate(45deg)
+
+.animate-middle
+  transition all ($duration/2) $ease ($duration/5)
+  transform scale(0)
+
+.animate-bottom
+  transition all $duration $ease
+  transform translate(0px, -7px) rotate(-45deg)
+
+.header-dark
+  .responsive-nav
+    background $ruben
+    color white
+    a
+      color white
+  
+  .submenu
+    background #1B1B1B 
+  
+  .menu-icon__bar
+    background $wander
+
+.footer
+  width 100%
+  clear both
+  
+  a
+    padding-bottom 8px
+    
+    &:hover
+      color $crusade
+      border-bottom 3px solid $crusade
+  
+  .menu
+    padding-top 20px
+    +above(460px)
+      padding 40px 0 40px 40px
+    
+    li
+      display block
+      @extend h5
+      font-size 1.05em
+      text-align center
+      margin 15px 20px
+      
+      +above(460px)
+        display inline-block
+        text-align left
+        margin 8px 20px
+    
+    +above(460px)
+      width 80%
+      float left
+      text-align left
+    
+      
+  .social
+    padding-top 20px
+    font-family 'Mono Social Icons Font'
+    font-size 30px
+    display inline-block
+    padding-bottom 40px
+    
+    +above(460px)
+      padding 40px 40px 40px 0
+
+    a
+      margin-left 10px
+      
+      &:hover
+        color $crusade
+    
+    +above(460px)
+      width 20%
+      float right 
+      
+
+/* Form Field */
+
+input
+  border none
+
+#search
+  position relative
+  display inline-block
+  
+  .sfield
+    @extends p
+    padding 10px 20px
+    border 3px solid $ruben
+    border-radius 100px
+    
+    +above(460px)
+      width 380px
+      max-width 380px
+  
+  .fa-search
+    position absolute
+    right 20px
+    align(v)
+    
+.pull-right
+  margin 28px
+
+.text-link
+  position relative
+  display inline-block
+  padding 0 0 10px 0
+
+  .underline
+    position absolute
+    bottom 0
+    left 0
+    display inline-block
+    content ''
+    background-color $crusade
+    height 3px
+    margin-bottom -3px
+
+.top-text-link
+  position relative
+  display inline-block
+  padding 0 0 5px 0
+
+  .underline2
+    
+    +above(800px)
+      position absolute
+      bottom 0
+      left 0
+      display inline-block
+      content ''
+      background-color $crusade
+    height 3px
+    margin 10px 0 0 0

@@ -1,0 +1,309 @@
+/* Modules
+--------------------------------------------- */
+// .main
+//   position relative
+//   top 100px
+
+
+/* Styleguide */
+
+.sg-section
+  max-width 600px
+  padding 30px
+  text-align left
+  position relative
+  h1, h2, h3, h4, h5, p
+    text-align left
+    padding 20px 0
+  
+.highlight
+  color #00E871
+
+
+/* Buttons */
+
+
+.primary-button
+  @extend h5
+  display inline-block
+  border 3px solid $crusade
+  padding 10px 25px 12px 25px
+  border-radius 100px
+  
+  &:hover
+    border-color $ruben
+    
+.form-button
+  @extend .primary-button
+  margin 20px
+  background transparent
+    
+.secondary-button
+  @extend .primary-button
+  background $ruben
+  border none
+  padding 13px 25px 15px 25px
+  
+  &:hover
+    background $crusade
+
+
+/*  Tabs  */
+
+.tab-container
+  margin 0 auto
+  position relative
+  padding 10px
+  clear both
+  
+  a
+    transition all 300ms ease
+    
+    &:link
+      border-bottom 3px solid transparent
+    
+    // &:hover
+    //   border-color $ruben
+  
+  +above(460px)
+    max-width 620px
+    
+  .selected
+    a
+      
+      border-bottom 3px solid $crusade
+    
+    // &:hover
+    //   border-color $ruben
+      
+.tab-container--dark
+  @extend .tab-container
+  a
+    &:hover
+      border-bottom 3px solid $wander
+  
+  .tabs
+    .tab-nav
+      color $wander
+      margin 0 0 20px 0
+  
+.tabs
+  li
+    display inline-block
+    margin 0 10px
+    padding 0
+    
+  .tab-nav
+    @extend h3
+    display inline-block
+    color $ruben
+
+    +below(550px)
+      font-size 1.5em
+
+    +below(460px)
+      font-size 1.25em
+
+/* Locations */
+
+.locations
+  margin-top 40px
+  display block
+  
+  li
+    width 100% 
+  
+  h5
+    margin 30px 0 10px 0
+    
+    // &:before
+    //   content:''
+    //   display inline-block
+    //   width 100%
+    //   border-top 3px solid $ruben
+    //   padding 10px
+
+.location
+  list-style-type none
+  @extend p
+  position relative
+  clear both
+  padding 0 0 40px 0
+  overflow hidden
+  
+  .full
+    text-align center
+    width 100%
+    position relative
+  
+  .left, .right
+    width 50%
+    padding 15px 20px
+    float left
+    position relative
+    height auto
+    p
+      margin-bottom 0
+
+
+
+/*  Lead Text  */
+
+
+.lead--text
+  position relative
+  margin 0 auto
+  max-width 620px
+  padding 20px 10px 0 10px
+  
+  +above(460px)
+    padding 0
+    margin-top 90px
+    
+
+.content--media
+  p
+    @extend .lead--text
+    margin-top 0
+    padding 10px
+  
+  h1, h2, h3, h4, h5
+    padding 40px 10px 0 0
+
+
+/* Content Areas */
+
+.slider
+  background-color black
+
+.full-width
+  height 75vh
+  background-size cover
+  background-position center
+  position relative
+
+  h1
+    max-width 720px 
+    color $wander
+    width: 100%
+    padding 10px
+    align(b)
+    
+    +above(460px)
+      width 80%
+      margin-top 20px  
+
+.full-width--slider
+  @extend .full-width
+  opacity .8
+
+.full-width--text
+  @extend .full-width
+  height 400px
+  margin-top 35px
+  margin-bottom 0
+  h1
+    color $ruben
+    // +above(460px)
+  
+  +below(460px)
+    margin 40px 0 0 0
+    height 320px
+
+.full-width--text-s
+  max-width 720px 
+  margin 0 auto
+  margin-top 80px
+  padding 20px 0
+  
+  +above(800px)
+    margin-top 120px
+
+.half-width
+  width 50%
+  padding 20px
+  float left
+  
+  img
+    margin-bottom 40px
+    
+.half-width--flush
+  @extend .half-width
+  padding 0  
+
+.dark
+  color $ruben
+
+.white
+  color $wander
+
+.slider--multiple
+  padding-top 60px
+  max-width 920px
+  margin 0 auto
+
+.featured-products
+  background $wander
+  padding $global-padding 10px
+  
+  +above(460px)
+    padding $global-padding 40px
+
+.slider--container
+  position relative
+  // margin 100px 0 0 0
+  
+  h1
+    color $ruben
+
+.slider--text
+  position absolute
+  z-index 4
+  color $wander
+  width 100%
+  padding 10px
+  align(b)
+  +above(460px)
+    max-width 900px
+
+.padded
+  padding 80px 0
+  max-width 1600px 
+
+.dark-bg
+  background $ruben
+  color white
+
+.centered
+  position absolute
+  align(b)
+  z-index 4
+  
+  h4
+    margin 20px
+    text-align center  
+    color $ruben
+
+.left
+  width 25%
+  float left
+
+.right
+  width 75%
+  float left
+
+.tabcontents
+  padding 20px 0
+  ul
+    li
+      text-align left
+      padding 10px
+      border 1px solid white
+      
+.tabcontents--dark
+  padding 10px 0 120px 0
+  
+
+.register-form
+  .sfield
+    background $wander

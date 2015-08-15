@@ -1,0 +1,35 @@
+nav.responsive-nav(role="navigation")
+
+  a(href="#", class="toggle-menu")
+    .menu-icon
+      .menu-icon__bar.top
+      .menu-icon__bar.middle
+      .menu-icon__bar.bottom
+
+  a(class='logo', href!="<?php echo url() ?>")
+    img(src!="<?php echo url('assets/images/traitor-logo.svg') ?>" alt!="<?php echo $site->title()->html() ?>")
+
+
+  ul.menu
+    - foreach($pages->visible() as $p):
+      li
+        a(href!="<?php echo $p->url() ?>" class="top-text-link")
+          span= $p->title()->html()
+          .underline2
+
+        - if($p->hasVisibleChildren()) :
+          .submenu
+            - foreach($p->children()->visible() as $p):
+              .item
+                a(href!="<?php echo $p->url() ?>")
+                  = $p->title()->html()
+            - endforeach;
+
+           - endif
+    - endforeach;
+      li
+        a(href!="https://traitorcycles.wordpress.com" class="top-text-link")
+          span Blog
+          .underline2
+  a(class='primary-button pull-right', href='#') Store
+  .nav-background

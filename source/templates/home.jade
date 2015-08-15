@@ -1,0 +1,32 @@
+- snippet('header')
+
+  main.main(role="main")
+    
+    .slider--container
+      h1.slider--text= $page->headline()
+      .darken
+      .slider
+        - $slides = $page->slider()->yaml()
+        - foreach($slides as $slide):
+          .full-width--slider(style!="background-image:url(<?php echo $page->image($slide['slider_image'])->url() ?>)")
+        - endforeach;
+
+    .lead--text
+        h2= $page->hero_subheading()
+        p.lead= $page->hero_content()
+        //- a(class='primary-button', href='#') Learn More
+
+    .featured-products
+      h2= $page->featured_subheading()
+      .slider--multiple
+        - $products = $page->featured()->toStructure()
+        - foreach($products as $product): 
+          .half-width
+            img(src!='<?php echo $page->image($product->product_image())->url() ?>')
+            h4= $product->product_name()
+            p= $product->product_desc()
+        - endforeach;
+
+      a(class='primary-button', href!="<?php echo url('bikes/') ?>") View All Bikes
+
+- snippet('footer')

@@ -1,0 +1,16 @@
+Title: Register Your Frame
+
+----
+
+Text: 
+
+<p class="lead"> Fill up the following fields to register your frame with us. <p>
+
+<div class="register-form">
+<form id="search" action="http://localhost:8000/assets/php/mail_handler.php" method="post">
+<input type="text" name="name" onfocus="this.value='';" value="Name" class="sfield"/>
+<input type="text" name="email" onfocus="this.value='';" value="Email" class="sfield"/>
+<input type="text" name="serial" onfocus="this.value='';" value="Serial Number" class="sfield"/>
+<input type="submit" name="submit" value="Submit" class="form-button"/>
+</form>
+</div>

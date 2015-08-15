@@ -1,0 +1,83 @@
+- snippet('header')
+
+    .sg-section
+      h5.highlight Typography
+      h1 h1. Headline
+      h2 h2. Headline
+      h3 h3. Headline
+      h4 h4. Headline
+      h5 h5. Headline
+      p.lead 
+        | Body Large. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+
+      p
+        | Body. Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+
+
+    // Buttons & Navigation
+
+
+    .sg-section
+      h5.highlight Buttons &amp; Navigation
+      a(class='primary-button', href='#') Primary Button
+      br
+      p.lead
+        a(class='text-link', href='#') Text Link
+      br
+      .tabs
+        .tab
+          input#tab-1(type='radio', name='tab-group-1', checked='')
+          label(for='tab-1') Tab One
+          p.content
+            | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        .tab
+          input#tab-2(type='radio', name='tab-group-1')
+          label(for='tab-2') Tab Two
+          p.content
+            | Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        .tab
+          input#tab-3(type='radio', name='tab-group-1')
+          label(for='tab-3') Tab Three
+          p.content
+            | Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+
+    // Custom Modules
+
+
+    .sg-section
+      h5.highlight Modules
+
+    .slider
+      .full-width
+        img(src='../../assets/images/homepage-hero.jpg')
+        h1 The Steel Feel for Cross-Racing
+      .full-width
+        img(src='../../assets/images/homepage-hero-2.jpg')
+        h1 The Steel Feel for Touring
+
+    .lead--text
+        h2 Why Steel?
+        p.lead
+          | We use Steel in our bikes because steel is both durable and much more confortable than aluminum. We want you to have a reliable bike and a smooth ride.
+        a(class='primary-button', href='#') Primary Button
+
+    .featured-products
+      .slider--multiple
+        .half-width
+          img(src='../../assets/images/product-thumb.jpg')
+          h4 Bike name
+          p
+            | The Wander is a our classic road touring machine that doesn't mind switching it up between commuting to work, hitting a gravel road or just banging out massive miles on the highway.
+
+        .half-width
+          img(src='../../assets/images/product-thumb.jpg')
+          h4 Bike name
+          p
+            | The Wander is a our classic road touring machine that doesn't mind switching it up between commuting to work, hitting a gravel road or just banging out massive miles on the highway.
+
+      a(class='primary-button', href='#') Primary Button
+
+
+    script(type='text/javascript', src='../../assets/js/vendor.min.js')
+    script(type='text/javascript', src='../../assets/js/main.js')

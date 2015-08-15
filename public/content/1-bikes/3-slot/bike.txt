@@ -1,0 +1,75 @@
+Title: Slot
+
+----
+
+Headline: Slot
+
+----
+
+Slider: 
+
+- 
+  slider_image: temp.jpg
+
+----
+
+Price-complete: Full Bike: $1,399  |  Frame Only: $499
+
+----
+
+Hero-image: slot_black.jpg
+
+----
+
+Description: 
+
+The Slot is our 29er built to rally trail as well as the rigors of adventure touring. The Slot takes gravel grinding to another level and is the ideal bike for someone that wants to go camping with their bike as well as hit up singletrack trails once they setup camp. Say goodbye to driving your car to the mountains, the Slot can handle miles of pavement riding as well as getting dirty.
+
+The Shimano Deore drivetrain has more than enough gearing to get you over any mountain pass and the Avid disc brakes are super reliable and provide superior stopping power. We've included all the right brazeons for front and rear racks and our custom forged dropout keeps the brake out of the way so mounting rear racks and fenders is a snap. The Slot geometry will have you feeling super comfortable on singletrack trails or grinding backroads fully loaded and exploring every path you see.
+
+----
+
+Specs: 
+
+| Specification          | Description                           |
+| ---------------------- |---------------------------------------|
+| Headset                | FSA TH-857 Polished Silver            |
+| Stem                   | Traitor 3D Forged Alloy Threadless (31.8mm, Black, 75mm)           |
+| Handlebar              | Promax 31.8 Drop Bar Black            |
+| Shifters               | Shimano Sora 9spd                     |
+| Rear Derailleur        | Shimano Sora 9spd                     |
+| Front Derailleur       | Shimano Sora 2spd                     |
+| Grip/Tape              | FSA Black Cork                        |
+| Seatpost               | Promax Alloy 26.6 x 350mm Black       |
+| Saddle                 | Traitor Diamond Race Black            |
+| Crank                  | FSA Tempo Double 50t/34t (Black)      |
+| Bottom Bracket         | FSA JIS                               |
+| Wheels                 | Traitor Disk Wheelset                 |
+| Tires                  | Kenda Tendril 700c x 28               |
+| Tubes                  | Kenda 700c x 28/32                    |
+| Chain                  | Shimano CN-HG53                       |
+| Cassette/Cog           | Shimano CS-HG50 11-30t                |
+| Brakes                 | Promax Render R                       |
+| Brake Levers           | Shimano Sora                          |
+| Pedals                 | Not included                          |
+
+----
+
+Geometry: 
+
+| Size (cm)                    | SM  | MD  | LG   | XL |
+| ---------------------------- | --- | --- | --- | --- |
+| Top Tube (mm)                | 535 | 550 | 570 | 600 |
+| Seat Tube (mm)               | 480 | 512 | 543 | 574 |
+| Stack (mm)                   | 548 | 555 | 574 | 608 |
+| Reach (mm)                   | 378 | 383 | 394 | 408 |
+| Standover Height (mm)        | 750 | 772 | 800 | 829 |
+| Head Tube Angle (deg)        | 72  | 72  | 72  | 72  |
+| Seat Tube Angle (deg)        | 74  | 73  | 73  | 72.5|
+| Chain Stay Length (mm)       | 426 | 426 | 426 | 426 |
+| Bottom Bracket Drop (mm)     | 68  | 68  | 68  | 68  |
+| Head Tube Length (mm)        | 112 | 120 | 140 | 175 |
+
+----
+
+Features: Flatbar, Disc_Brakes, Gears, Front_and_Rear_Rack_Mounts

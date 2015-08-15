@@ -1,0 +1,51 @@
+Title: Dealers
+
+----
+
+Locations: 
+
+- 
+  name: Evo
+  loclat: 47.649667
+  loclong: -122.342278
+  url: http://evo.com/seattle
+- 
+  name: GHY Bikes
+  loclat: 47.479512
+  loclong: -122.205007
+  url: 'http://www.gohuckyourself.com '
+- 
+  name: Hidden Wave
+  loclat: 48.468300
+  loclong: -122.335143
+  url: 'http://www.hiddenwave.net '
+- 
+  name: 'REI - Seattle Flagship'
+  loclat: 47.620322
+  loclong: -122.329685
+  url: http://rei.com
+- 
+  name: 'REI - Bellingham'
+  loclat: 48.730647
+  loclong: -122.472115
+  url: http://rei.com
+- 
+  name: 'REI - Redmond'
+  loclat: 47.671146
+  loclong: -122.118628
+  url: http://rei.com
+- 
+  name: 'REI - Spokane'
+  loclat: 47.667696
+  loclong: -117.427061
+  url: http://rei.com
+- 
+  name: School of Bike
+  loclat: 47.66204
+  loclong: -122.33337
+  url: http://schoolofbike.com/
+- 
+  name: Wheelsport East
+  loclat: 47.638112
+  loclong: -117.197047
+  url: 'http://wheelsporteast.com '

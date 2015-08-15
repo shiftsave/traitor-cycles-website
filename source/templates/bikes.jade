@@ -1,0 +1,29 @@
+- snippet('header')
+
+  main.main(role="main")
+    
+  .padding
+    - $products = $page->product()->toStructure()
+    - foreach($products as $product) :
+      .product
+        a(href!="<?php echo url('bikes/') ?>/<?php echo $product->product_page()?>" class="text-link" )
+          h1= $product->product_name()
+          .underline
+
+        p.lead= $product->product_desc()
+
+        a.product--image(href!="<?php echo url('bikes/') ?>/<?php echo $product->product_page()?>")
+          img(src!="<?php echo $page->image($product->product_image())->url() ?>")
+        
+        .features--text
+          h5 features
+
+        ul.product--features--list
+          - foreach($product->get('features[]') as $feature):
+            li
+              img(src!="<?php echo url('assets/images/') . $feature . '.svg' ?>")
+              p= $feature = str_replace('_', ' ', $feature)
+          - endforeach;
+      - endforeach;
+
+- snippet('footer')

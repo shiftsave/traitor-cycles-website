@@ -1,0 +1,88 @@
+- snippet('header')
+
+  :php
+    $USlocations = $page->us_location()->yaml();
+
+    function cmp($a, $b){
+      return strcmp($a["state"], $b["state"]);
+    }
+    usort($USlocations, "cmp");
+
+  :php
+    $states = array();
+    foreach($USlocations as $shop):
+      if(!in_array($shop['state'], $states)):
+        $states[] = $shop['state'];
+      endif;
+    endforeach;
+
+  main.main(role="main")
+    .full-width--text
+      h1 Traitors around the world
+
+    .search-area
+      h3 Find dealers nearby:
+      form#search(action='', method='get')
+        input.sfield(type='text', name='search', onfocus="this.value='';", value='Enter your city')
+        //- input.sbutton(type='submit', value='')
+        <i class="fa fa-search"></i>
+      ul
+        li
+
+    .tab-container
+      ul(class="tabs" data-persist="true" )
+        li.selected
+          a(class="tab-nav" href="#view1") USA
+        li
+          a(class="tab-nav" href="#view2") Canada
+        li
+          a(class="tab-nav" href="#view3") International
+
+      .tabcontents
+        #view1
+          :php
+            if(param('state')): 
+              echo "<h5>".ucwords(str_replace("-", " ", param('state')))."</h5>";
+              foreach($USlocations as $shop):
+                if($shop['state'] == param('state')): ?>
+                  <li class="location">
+                    <div class="full">
+                      <h3><?php echo $shop['name'] ?></h3>
+                    </div>
+                    <div class="left">
+                      <?php echo $shop['address'] ?>
+                    </div>
+                    <div class="right">
+                      <?php echo $shop['phone'] ?></br>
+                      <a href="<?php echo $shop['website'] ?>"><?php echo $shop['website'] ?></a>
+                    </div>
+                  </li>
+                <?php endif;
+              endforeach; 
+            else:
+              foreach ($states as $state):
+              echo "<h5>".ucwords(str_replace("-", " ", $state))."</h5>";
+                foreach($USlocations as $shop):
+                  if($state == $shop['state']): ?>
+                    <li class="location">
+                      <div class="full">
+                        <h3><?php echo $shop['name'] ?></h3>
+                      </div>
+                      <div class="left">
+                        <?php echo $shop['address'] ?>
+                      </div>
+                      <div class="right">
+                        <?php echo $shop['phone'] ?></br>
+                        <a href="<?php echo $shop['website'] ?>"><?php echo $shop['website'] ?></a>
+                      </div>
+                    </li>
+                  <?php endif;
+                endforeach;
+              endforeach;
+            endif;
+        #view2
+          p Empty
+        #view3
+          p Empty
+
+- snippet('footer')

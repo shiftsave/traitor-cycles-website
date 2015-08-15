@@ -1,0 +1,57 @@
+Title: Crusade
+
+----
+
+Headline: Crusade
+
+----
+
+Slider: 
+
+- 
+  slider_image: BCRCX14_0968-(ZF-0634-73221-1-002).jpg
+
+----
+
+Price-complete: Frame Only: $599
+
+----
+
+Hero-image: crusade_black.jpg
+
+----
+
+Description: 
+
+The Crusade is our race specific cyclocross frameset designed to be a competitive bike for all levels of racing. The new Crusade is disc only so you can save your rims from getting destroyed every season. Our new custom forged stainless steel dropouts allow you to run a geared setup or singlespeed with a QR for ultra quick wheel changes.
+
+With our new system you set your tension one time and you can do wheel changes without ever having to retension it again. The dropouts come standard with the derailleur hanger or if you want a super clean singlespeed dropout without the hanger we have those available as well. The toptube has internal routing so no cables to get in the way of shouldering your bike. The downtube features bolt on removeable cable stops for front and rear derailleur for barrel adjustment if you run gears. Finally the frame is coated with an ED finish that makes it rust proof inside and out of the frame and fork. If you are addicted to cross racing like we are you know how much fun a steel cross bike can be and the new Crusade is our approach to making a no compromise racer.
+
+----
+
+Specs: 
+
+| Specification          |                                    |
+| ---------------------- |----------------------------------------------|
+| Sold as Frame and Fork Only                |  |
+
+----
+
+Geometry: 
+
+| Size (cm)                    | SM  | MD  | LG   | XL |
+| ---------------------------- | --- | --- | --- | --- |
+| Top Tube (mm)                | 520 | 545 | 570 | 600 |
+| Seat Tube (mm)               | 480 | 520 | 550 | 580 |
+| Stack (mm)                   | 534 | 548 | 581 | 595 |
+| Reach (mm)                   | 365 | 377 | 391 | 406 |
+| Standover Height (mm)        | 749 | 780 | 810 | 833 |
+| Head Tube Angle (deg)        | 71  | 72  | 72  | 72  |
+| Seat Tube Angle (deg)        | 74  | 73  | 73  | 73  |
+| Chain Stay Length (mm)       | 426 | 426 | 426 | 426 |
+| Bottom Bracket Drop (mm)     | 67  | 67  | 67  | 67  |
+| Head Tube Length (mm)        | 122 | 130 | 150 | 152 |
+
+----
+
+Features: Steel_Frame, Custom_Dropout

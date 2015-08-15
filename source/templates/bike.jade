@@ -1,0 +1,56 @@
+- snippet('header')
+
+  main(class="main" role="main")
+    
+    .slider--container
+      .centered
+        h1= $page->title()
+        h4.white= $page->price_complete()
+        a(class='primary-button', href='/dealers') Find Dealers
+
+      .darken
+      .slider
+        - $slides = $page->slider()->yaml()
+        - foreach($slides as $slide):
+          .full-width--slider(style!="background-image:url(<?php echo $page->image($slide['slider_image'])->url() ?>)")
+        - endforeach;
+
+    img.padded(src!="<?php echo $page->files()->find($page->hero_image())->url() ?>")
+
+    .details
+      .features--text
+          h5 features
+      ul.product--features--list
+        - $features = $page->features()->split()
+        - foreach($features as $feature):
+          li
+            img(src!="<?php echo url('assets/images/') . $feature . '.svg' ?>")
+            p= $feature = str_replace('_', ' ', $feature)
+        - endforeach;
+
+    .tab-container
+      ul(class="tabs" data-persist="true" )
+        li.selected
+          a(class="tab-nav text-link" href="#view1")
+            span Description
+            .underline
+        li
+          a(class="tab-nav text-link" href="#view2")
+            span Specs
+            .underline
+        li
+          a(class="tab-nav text-link" href="#view3")
+            span Geometry
+            .underline
+
+      .tabcontents
+        #view1
+          - echo $page->description()->kirbytext()
+        #view2
+          - echo $page->specs()->kirbytext()
+
+        #view3
+          - echo $page->geometry()->kirbytext()
+
+
+- snippet('footer')

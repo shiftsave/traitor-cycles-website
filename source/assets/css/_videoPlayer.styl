@@ -1,0 +1,42 @@
+.videoArea
+  position relative
+  display block
+
+.video
+  display block
+  position relative
+  
+  &:hover
+    + .video-control
+      //opacity: .8
+
+.video-control
+  position absolute
+  align(b)
+  font-size: 3em
+  opacity .7
+  transition: opacity 0.3s
+  
+  &:link, &:visited
+     border-bottom none
+  
+  &:hover
+    opacity: 1
+    border-bottom none
+
+  &:before
+    content:url(../images/pause.svg)
+    border-bottom none
+
+  &.paused
+    &:before
+      content:url(../images/play.svg)
+
+  &.playing
+    opacity 0
+    
+    &:hover
+      opacity 1
+
+    &:before
+      content:url(../images/pause.svg)

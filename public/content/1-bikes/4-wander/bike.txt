@@ -1,0 +1,75 @@
+Title: Wander
+
+----
+
+Headline: Wander
+
+----
+
+Slider: 
+
+- 
+  slider_image: temp.jpg
+
+----
+
+Price-complete: Full Bike: $1,299  |  Frame Only: $399
+
+----
+
+Hero-image: wander_black.jpg
+
+----
+
+Description: 
+
+The Wander is a our classic road touring machine that doesn't mind switching it up between commuting to work, hitting a gravel road or just banging out massive miles on the highway. The steel frame and custom fork along with our relaxed compact geometry make the Wander one of our most comfortable bikes to ride as well as mount and dismount.
+
+Brazeons for front and rear racks, full fenders and two sets of water bottles make the Wander ready for any style of adventure you can throw at it. The 27 speed Shimano drivetrain has a super wide gear range to get your loaded bike up and down big mountain passes and the disc brakes will have you stopping with complete confidence even in a downpour. Wide 32c Kenda tires provide superb traction and stability and comfort while being kevlar reinforced so flat tires are a thing of the past. If you are looking for a versatile bike that lives up to its name, look no further than the Wander.
+
+----
+
+Specs: 
+
+| Specification          | Description                           |
+| ---------------------- |---------------------------------------|
+| Headset                | FSA TH-857 Polished Silver            |
+| Stem                   | Promax 3D Forged 31.8 Black           |
+| Handlebar              | Promax 31.8 Drop Bar Black            |
+| Shifters               | Microshift Bar Ends                   |
+| Rear Derailleur        | Shimano Alivioa 9spd                  |
+| Front Derailleur       | Shimano Sora 3spd                     |
+| Grip/Tape              | FSA Black Cork                        |
+| Seatpost               | Promax Alloy 26.6 x 350mm Black       |
+| Saddle                 | Traitor Diamond Race Black            |
+| Crank                  | FSA Tempo Triple 50 (Black)           |
+| Bottom Bracket         | FSA JIS                               |
+| Wheels                 | Traitor Disk Wheelset                 |
+| Tires                  | Kenda Kwick Roller Sport 700c x 32    |
+| Tubes                  | Kenda 700c x 28/32                    |
+| Chain                  | Shimano 9spd                          |
+| Cassette/Cog           | Shimano CS-HG50 11-30t                |
+| Brakes                 | Promax Render R                       |
+| Brake Levers           | Promax BL-253                         |
+| Pedals                 | Not included                          |
+
+----
+
+Geometry: 
+
+| Size (cm)                    | XS  | SM  | MD  | LG  | XL  |
+| ---------------------------- | --- | --- | --- | --- | --- |
+| Top Tube (mm)                | 530 | 540 | 555 | 580 | 600 |
+| Seat Tube (mm)               | 453 | 479 | 492 | 518 | 540 |
+| Stack (mm)                   | 573 | 586 | 601 | 614 | 630 |
+| Reach (mm)                   | 367 | 371 | 381 | 391 | 407 |
+| Standover Height (mm)        | 732 | 769 | 777 | 801 | 818 |
+| Head Tube Angle (deg)        | 71  | 71  | 71  | 71  | 71  |
+| Seat Tube Angle (deg)        | 74  | 74  | 74  | 73  | 73  |
+| Chain Stay Length (mm)       | 445 | 445 | 445 | 445 | 445 |
+| Bottom Bracket Drop (mm)     | 70  | 70  | 70  | 70  | 70  |
+| Head Tube Length (mm)        | 140 | 155 | 170 | 185 | 200 |
+
+----
+
+Features: Dropbar, Disc_Brakes, Gears, Front_and_Rear_Rack_Mounts

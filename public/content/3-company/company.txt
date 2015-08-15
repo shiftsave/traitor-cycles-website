@@ -1,0 +1,38 @@
+Title: Company
+
+----
+
+Hero-headline: Its about more than bikes
+
+----
+
+Hero-text: Traitor is committed to getting more people riding bikes as their primary mode of transportation. This choice can be intimidating, which is why we support local bike shops and events that bring people together to ride bikes.
+
+----
+
+Area1-content: 
+
+### How we roll
+The Pacific Northwest has an extremely vibrant hand built bicycle scene that creates a very unique and dedicated bike culture. People take their bikes very seriously and we are no exception. When you spend as many hours on bikes as we do, the bike no longer is just something to get you from A to B, it becomes a reflection of who you are.
+
+Our goal is to create amazing unique bikes that our customers can connect with and make them want to ride more. For 2015 we have refined our lineup to reflect our own personal needs and passion for steel bikes, whether it's racing cross, heading for an adventure in the mountains or just going downtown to grab a beer.
+
+(vimeo: https://vimeo.com/64904911)
+
+### Our tubing
+A lot of companies will stamp their own name on a generic chromoly tubeset to give it more perceived value. At Traitor we prefer to let our customers know the direct source of where all our products and materials are coming from. Founderland has been creating some of the highest quality tubesets in Taiwan for over 26 years. They produce tubes for other well known tubing manufacturers and have a long heritage of being one of the leading tube manufacturers in Taiwan.
+
+The tubesets we use are all pure 4130 chromoly drawn seamless tubes, so no welded seams. Founderland offers almost limitless possibilities for butting profiles, tube sizes and shapes so we can get as creative as we want with our designs. We offer two styles of Founderland Tubing, standard double butted seamless tubeset and a race butted seamless chromoly designed for lightweight racing applications.
+
+(image: image_01.jpg)
+
+----
+
+Slider: 
+
+- 
+  slider_image: >
+    Mac_Holt_2014_1_Mac_Holt_2014_1_2014_-17.jpg
+- 
+  slider_image: >
+    Mac_Holt_2014_1_Mac_Holt_2014_1_2014_-13.jpg

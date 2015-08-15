@@ -1,0 +1,72 @@
+Title: Cutlass
+
+----
+
+Headline: Cutlass
+
+----
+
+Slider: 
+
+- 
+  slider_image: temp.jpg
+
+----
+
+Price-complete: Full Bike: $499  |  Frame Only: $299
+
+----
+
+Hero-image: cutlass_black.jpg
+
+----
+
+Description: 
+
+The Cutlass is a versatile quick handling singlespeed that can do just about anything. With wide 32c tires and some of the most comfortable grips on the market, the Cutlass is an absolute joy to rally around town.
+
+We've included room and eyelets for fenders because we're from the Northwest and rack mounts for getting stuff off your back. From the frame details, tubing and parts selection, the Cutlass is a unique high quality singlespeed that stands out from the crowd.
+
+----
+
+Specs: 
+
+| Specification          | Description                                  |
+| ---------------------- |----------------------------------------------|
+| Headset                | FSA TH-857 Polished Silver                   |
+| Stem                   | Traitor 3D Forged Alloy Threadless           |
+| Handlebar              | Traitor Alloy Riser Bar 630mm                |
+| Grip/Tape              | Velo Kraton Flange Grips                     |
+| Seatpost               | Promax Alloy 26.6 x 350mm Black              |
+| Saddle                 | Traitor Diamond Race Black                   |
+| Crank                  | FSA Vero Track 42t (Black)                   |
+| Bottom Bracket         | FSA JIS                                      |
+| Wheels                 | Traitor Track Silver Wheelset                |
+| Tires                  | Kenda Kwick Trax 700Cx32C                    |
+| Tubes                  | Kenda 700c x 28/32                           |
+| Chain                  | KMC Singlespeed                              |
+| Cassette/Cog           | Sealed Bearing 16t Freewheel & 16 Fixed Cog  |
+| Brakes                 | Tektro R359 (53-73mm reach)                  |
+| Brake Levers           | Tektro                                       |
+| Pedals                 | Plastic pedals w/toe clips                   |
+
+----
+
+Geometry: 
+
+| Size (cm)                    | SM  | MD  | LG   | XL |
+| ---------------------------- | --- | --- | --- | --- |
+| Top Tube (mm)                | 535 | 545 | 565 | 595 |
+| Seat Tube (mm)               | 500 | 530 | 560 | 590 |
+| Stack (mm)                   | 526 | 542 | 551 | 581 |
+| Reach (mm)                   | 388 | 390 | 406 | 417 |
+| Standover Height (mm)        | 750 | 775 | 800 | 827 |
+| Head Tube Angle (deg)        | 71  | 73  | 73  | 73  |
+| Seat Tube Angle (deg)        | 74.5| 74  | 74  | 73  |
+| Chain Stay Length (mm)       | 416 | 416 | 416 | 416 |
+| Bottom Bracket Drop (mm)     | 65  | 65  | 65  | 65  |
+| Head Tube Length (mm)        | 102 | 112 | 122 | 152 |
+
+----
+
+Features: Flatbar, Caliper_Brakes, Single_Speed

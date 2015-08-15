@@ -1,0 +1,106 @@
+.padding
+  margin-top 200px
+
+.product
+  clear both
+
+  h1
+    padding-bottom 5px
+    
+  p  
+    max-width 620px
+    padding 5px
+    margin 0 auto
+    margin-bottom 60px
+  
+  .lead
+    margin-top 10px
+  
+  h5
+    display inline-block
+    padding 30px 0
+    
+    +above(840px)
+      padding 30px 0
+    
+    &:before
+      content:''
+      display inline-block
+      width 100%
+      padding 3px 0
+      border-top 3px solid $crusade
+  
+  img
+    transition all 700ms cubic-bezier(0.230, 1.000, 0.320, 1.000)
+
+    +above(800px)
+      &:hover
+        transform scale(1.02)
+      
+
+.details
+  @extend .product
+  margin-top -60px
+
+.product--dark
+  @extend .product
+  h5
+    color $wander
+    
+    &:before
+      border-color $wander
+
+.product--features--list
+  position relative
+  margin auto
+  display inline-block
+  clear both
+  
+  li
+    position relative
+    display inline-block
+    padding 10px 5px 0 5px
+    width 50%
+    float left
+    
+    +above(760px)
+      float left
+      width 180px
+      padding 0 20px
+    
+    img
+      width 40px
+      margin 0 auto
+    p
+      text-align center
+      text-transform none
+      max-width 160px 
+
+.main-dark
+  background $ruben
+  color $wander
+  h1,h2,h3,h4,h5,p,li
+    color $wander
+
+.single--product--name
+  position relative
+  z-index 4
+  top -20px
+  color $wander
+  width 100%
+  padding 10px
+  h1, h2, h3, h4, h5
+    color $wander
+    text-align center
+  
+  .primary-button
+    color $wander
+    &:hover
+      border-color $wander
+      
+.single-features
+  padding-bottom 1px
+
+.dark-bg
+  p
+    color $wander

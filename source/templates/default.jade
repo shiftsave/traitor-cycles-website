@@ -1,0 +1,11 @@
+- snippet('header')
+
+  main.main(role="main")
+
+    .full-width--text-s
+      h1= $page->title()
+
+    .content--media
+      - echo $page->text()->kirbytext()
+
+- snippet('footer')

@@ -1,0 +1,82 @@
+Title: Ruben Flatbar
+
+----
+
+Headline: Ruben Flatbar
+
+----
+
+Slider: 
+
+- 
+  slider_image: >
+    Mac_Holt_2014_1_Mac_Holt_2014_1_2014_-13.jpg
+- 
+  slider_image: >
+    Mac_Holt_2014_1_Mac_Holt_2014_1_2014_-3.jpg
+- 
+  slider_image: >
+    Mac_Holt_2014_1_Mac_Holt_2014_1_2014_-12.jpg
+
+----
+
+Price-complete: Full Bike: $999 |  Frame Only: $549
+
+----
+
+Hero-image: ruben-flat_black.jpg
+
+----
+
+Description: 
+
+The Ruben is a Pacific Northwest style commuter designed with performance in mind. The steel frame and fork provide an incredibly smooth ride that takes out the harshness of the road, and the disc brakes will have you stopping with complete confidence no matter what the weather conditions.
+
+The Ruben comes with a full complement of fender mounts as well as mounts for a rear rack so you can outfit your ride however you like. Our new swinging dropout system with built in chain tensioners allow the rider to switch between a geared or singlespeed setup with total ease. The 2x9 Shimano Sora STI drivetrain provides ample gearing for any type of commuting or general riding and the 28c puncture resistant tires are very quick but also stable for rougher roads. For the tubing we are using double butted Founderland Chromoly that is a seamless drawn tube for increased strength and ride quality. The geometry is modeled around a traditional cyclocross setup so if you wanted to throw bigger tires on and race, the Ruben can handle it no problem.
+
+----
+
+Specs: 
+
+| Specification          | Description                           |
+| ---------------------- |---------------------------------------|
+| Headset                | FSA TH-857 Polished Silver            |
+| Stem                   | Promax 3D Forged 31.8 Black           |
+| Handlebar              | Promax 31.8 Drop Bar Black            |
+| Shifters               | Shimano M310 Rapidfire                |
+| Rear Derailleur        | Shimano Acera 8spd                    |
+| Front Derailleur       | Shimano M310 3spd                     |
+| Grip/Tape              | Velo Ergo Grips                       |
+| Seatpost               | Promax Alloy 26.6 x 350mm Black       |
+| Saddle                 | Traitor Diamond Race Black            |
+| Crank                  | Shimano M361 48/38/28t (Black)        |
+| Bottom Bracket         | FSA JIS                               |
+| Wheels                 | Traitor Disk Wheelset                 |
+| Tires                  | Kenda Tendril 700c x 28               |
+| Tubes                  | Kenda 700c x 28/32                    |
+| Chain                  | Shimano CN-HG53                       |
+| Cassette/Cog           | Shimano CS-HG41 11-34t                |
+| Brakes                 | Promax Render R                       |
+| Brake Levers           | Promax Road                           |
+| Pedals                 | Not included                          |
+
+----
+
+Geometry: 
+
+| Size (cm)                    | SM  | MD  | LG   | XL |
+| ---------------------------- | --- | --- | --- | --- |
+| Top Tube (mm)                | 535 | 550 | 570 | 600 |
+| Seat Tube (mm)               | 480 | 512 | 543 | 574 |
+| Stack (mm)                   | 548 | 555 | 574 | 608 |
+| Reach (mm)                   | 378 | 383 | 394 | 408 |
+| Standover Height (mm)        | 750 | 772 | 800 | 829 |
+| Head Tube Angle (deg)        | 72  | 72  | 72  | 72  |
+| Seat Tube Angle (deg)        | 74  | 73  | 73  | 72.5|
+| Chain Stay Length (mm)       | 426 | 426 | 426 | 426 |
+| Bottom Bracket Drop (mm)     | 68  | 68  | 68  | 68  |
+| Head Tube Length (mm)        | 112 | 120 | 140 | 175 |
+
+----
+
+Features: Flatbar, Disc_Brakes, Gears, Rear_Rack_Mounts

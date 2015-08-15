@@ -1,0 +1,52 @@
+Title: Home
+
+----
+
+Slider: 
+
+- 
+  slider_image: >
+    mac_holt_2014_1_mac_holt_2014_1_2014_-14.jpg
+- 
+  slider_image: >
+    mac_holt_2014_1_mac_holt_2014_1_2014_-15.jpg
+- 
+  slider_image: >
+    mac_holt_2014_1_mac_holt_2014_1_2014_-7.jpg
+
+----
+
+Hero-subheading: Why Steel?
+
+----
+
+Hero-content: We use Steel in our bikes because steel is both durable and much more comfortable than aluminum. We want you to have a reliable bike and a smooth ride.
+
+----
+
+Featured: 
+
+- 
+  product_name: Ruben
+  product_desc: >
+    The Ruben is a Pacific Northwest style
+    commuter bike designed with performance
+    in mind.
+  product_image: ruben.jpg
+  product_page: bikes/ruben-dropbar
+- 
+  product_name: Slot
+  product_desc: >
+    The Slot is our 29er bike built to rally
+    trails as well as the rigors of
+    adventure touring.
+  product_image: slot.jpg
+  product_page: bikes/slot
+
+----
+
+Featured-subheading: Most Popular Bikes
+
+----
+
+Headline: Born and bred in the pacific northwest

@@ -1,0 +1,50 @@
+/*
+ * Stylus Boilerplate
+ *
+ * @author  Ivan Cruz
+ * @date    03.27.15
+ *
+ */
+
+
+/*  Variables
+ * -------------------------------------------------------- */
+
+// Colors
+$wander   = #000000
+$ruben    = #ffffff
+$crusade  = #00E871
+$slot     = #F9F9F9
+
+// Fonts
+$headline-font = 'realtime-bold', sans-serif
+$body-font = 'Montserrat', sans-serif
+
+// Margin & Padding
+$global-padding = 80px
+
+// Min-Width Media Query
+above(width)
+  @media screen and (min-width: width)
+    {block}
+
+below(width)
+  @media screen and (max-width: width)
+    {block}
+
+
+/*  Imports
+ * -------------------------------------------------------- */
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+@import '_reset'
+@import 'jeet'
+@import '_slider'
+@import '_mixins'
+@import '_fonts'
+@import '_base'
+@import '_modules'
+@import '_navigation'
+@import '_videoPlayer'
+@import '_map'
+@import '_products'

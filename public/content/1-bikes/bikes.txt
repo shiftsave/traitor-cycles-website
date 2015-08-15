@@ -1,0 +1,77 @@
+Title: Bikes
+
+----
+
+Product: 
+
+- 
+  product_name: Ruben Dropbar
+  product_desc: >
+    The Ruben is a Pacific Northwest style
+    commuter bike designed with performance
+    in mind.
+  product_image: ruben-dropbar.jpg
+  features[]:
+    - Dropbar
+    - Disc_Brakes
+    - Gears
+    - Rear_Rack_Mounts
+  product_page: ruben-dropbar
+- 
+  product_name: Ruben Flatbar
+  product_desc: >
+    The Ruben is a Pacific Northwest style
+    commuter bike designed with performance
+    in mind.
+  product_image: ruben-flatbar.jpg
+  features[]:
+    - Flatbar
+    - Disc_Brakes
+    - Gears
+    - Rear_Rack_Mounts
+  product_page: ruben-flatbar
+- 
+  product_name: Wander
+  product_desc: "The Wander is our classic road touring bike that doesn't mind switching between the city, backroads or the highway."
+  product_image: wander.jpg
+  features[]:
+    - Dropbar
+    - Disc_Brakes
+    - Gears
+    - Front_and_Rear_Rack_Mounts
+  product_page: wander
+- 
+  product_name: Slot
+  product_desc: |
+    The Slot is our 29er bike built to rally trails as well
+    as the rigors of adventure touring.
+  product_image: slot.jpg
+  features[]:
+    - Flatbar
+    - Disc_Brakes
+    - Gears
+    - Front_and_Rear_Rack_Mounts
+  product_page: slot
+- 
+  product_name: Cutlass
+  product_desc: |
+    The Cutlass is a versatile quick handling single-speed
+    bike that can do just about anything.
+  product_image: cutlass.jpg
+  features[]:
+    - Flatbar
+    - Caliper_Brakes
+    - Single_Speed
+  product_page: cutlass
+- 
+  product_name: Crusade
+  product_desc: >
+    The Crusade is our race specific
+    cyclocross frameset designed to be a
+    competitive bike for all levels of
+    racing.
+  product_image: crusade.jpg
+  features[]:
+    - Steel_Frame
+    - Custom_Dropout
+  product_page: crusade

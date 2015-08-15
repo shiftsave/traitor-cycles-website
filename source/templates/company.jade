@@ -1,0 +1,20 @@
+- snippet('header')
+
+  main.main(role="main")
+
+    .slider--container
+      h1.slider--text= $page->hero_headline()
+      .darken
+      .slider
+        - $slides = $page->slider()->yaml()
+        - foreach($slides as $slide):
+          .full-width--slider(style!="background-image:url(<?php echo $page->image($slide['slider_image'])->url() ?>)")
+        - endforeach;
+    
+    .lead--text
+      p.lead= $page->hero_text()
+
+    .content--media
+      - echo $page->area1_content()->kirbytext()
+
+- snippet('footer')
