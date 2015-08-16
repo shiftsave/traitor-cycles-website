@@ -1,4 +1,5 @@
-<?php snippet('header') ?>
+
+<body></body><?php snippet('header') ?>
 <main role="main" class="main">
   <div class="slider--container">
     <h1 class="slider--text"><?php echo htmlspecialchars($page->headline(), ENT_QUOTES, 'UTF-8'); ?></h1>
@@ -14,8 +15,9 @@
   <div class="featured-products">
     <h2><?php echo htmlspecialchars($page->featured_subheading(), ENT_QUOTES, 'UTF-8'); ?></h2>
     <div class="slider--multiple"><?php $products = $page->featured()->toStructure() ?><?php foreach($products as $product):  ?>
-      <div class="half-width"><img src="<?php echo $page->image($product->product_image())->url() ?>"/>
-        <h4><?php echo htmlspecialchars($product->product_name(), ENT_QUOTES, 'UTF-8'); ?></h4>
+      <div class="half-width"><a href="<?php echo url('bikes/') ?>/<?php echo $product->product_page()?>" class="product--image"><img src="<?php echo $page->image($product->product_image())->url() ?>"/></a><a href="<?php echo $product->product_page()?>" class="featured--link text-link">
+          <h3><?php echo htmlspecialchars($product->product_name(), ENT_QUOTES, 'UTF-8'); ?></h3>
+          <div class="underline"></div></a>
         <p><?php echo htmlspecialchars($product->product_desc(), ENT_QUOTES, 'UTF-8'); ?></p>
       </div><?php endforeach; ?>
     </div><a href="<?php echo url('bikes/') ?>" class="primary-button">View All Bikes</a>

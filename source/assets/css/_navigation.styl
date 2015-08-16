@@ -147,7 +147,6 @@ html,body
 .submenu--active
   display block 
 
-
 /*  Menu Icon  */
 
 $ease = cubic-bezier(0.77, 0, 0.175, 1)
@@ -207,13 +206,6 @@ $duration = 700ms
 .footer
   width 100%
   clear both
-  
-  a
-    padding-bottom 8px
-    
-    &:hover
-      color $crusade
-      border-bottom 3px solid $crusade
   
   .menu
     padding-top 20px
@@ -304,10 +296,9 @@ input
 .top-text-link
   position relative
   display inline-block
-  padding 0 0 5px 0
+  padding 0 0 3px 0
 
   .underline2
-    
     +above(800px)
       position absolute
       bottom 0
@@ -316,4 +307,8 @@ input
       content ''
       background-color $crusade
     height 3px
-    margin 10px 0 0 0
+    margin 5px 0 0 0
+
+.nav--active
+  .underline2
+    width 100%!important

@@ -13,7 +13,7 @@ nav.responsive-nav(role="navigation")
   ul.menu
     - foreach($pages->visible() as $p):
       li
-        a(href!="<?php echo $p->url() ?>" class="top-text-link")
+        a( class!="<?php e($p->isOpen(), 'nav--active') ?>" href!="<?php echo $p->url() ?>" class="top-text-link")
           span= $p->title()->html()
           .underline2
 
@@ -28,8 +28,8 @@ nav.responsive-nav(role="navigation")
            - endif
     - endforeach;
       li
-        a(href!="https://traitorcycles.wordpress.com" class="top-text-link")
+        a(href!="http://traitorcycles.wordpress.com" class="top-text-link")
           span Blog
           .underline2
-  a(class='primary-button pull-right', href='#') Store
+  a(class='primary-button pull-right', href='http://traitorcycles.bigcartel.com') Store
   .nav-background

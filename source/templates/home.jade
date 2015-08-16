@@ -1,3 +1,4 @@
+body
 - snippet('header')
 
   main.main(role="main")
@@ -22,8 +23,11 @@
         - $products = $page->featured()->toStructure()
         - foreach($products as $product): 
           .half-width
-            img(src!='<?php echo $page->image($product->product_image())->url() ?>')
-            h4= $product->product_name()
+            a.product--image(href!="<?php echo url('bikes/') ?>/<?php echo $product->product_page()?>")
+              img(src!="<?php echo $page->image($product->product_image())->url() ?>")
+            a.featured--link(href!="<?php echo $product->product_page()?>" class="text-link" )
+              h3= $product->product_name()
+              .underline
             p= $product->product_desc()
         - endforeach;
 
