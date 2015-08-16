@@ -9,7 +9,11 @@ Headline: Slot
 Slider: 
 
 - 
-  slider_image: temp.jpg
+  slider_image: slot-03.jpg
+- 
+  slider_image: slot-01.jpg
+- 
+  slider_image: slot-02.jpg
 
 ----
 

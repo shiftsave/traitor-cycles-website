@@ -1,7 +1,7 @@
 <?php snippet('header') ?>
 <div class="map-container">
   <form class="map-search">
-    <input type="text" name="search_map" onfocus="this.value='';" value="Search this map"/>
+    <input type="text" name="search_map" onfocus="this.value='';" value="Search in city or ZIP code"/>
   </form>
   <div id="map"></div>
   <script>

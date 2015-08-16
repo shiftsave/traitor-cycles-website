@@ -178,7 +178,7 @@ module.exports =
         lng: lng
         title: "#{location.name}"
         infoWindow:
-          content: "<div>#{location.name}</div><div>#{location.url}</div><div>#{location.url}</div>"
+          content: "<div class='map--name'>#{location.name}</div><div class='map--url'><a href='#{location.url}'>#{location.url}</div>"
     # @map.fitBounds bounds
 
 

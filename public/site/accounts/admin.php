@@ -7,8 +7,8 @@ password: >
 language: en
 role: admin
 history:
+  - bikes/slot
   - dealers
   - bikes
   - bikes/crusade
   - bikes/cutlass
-  - bikes/wander

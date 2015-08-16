@@ -1358,6 +1358,21 @@ input {
     top: 120px;
   }
 }
+.map--name {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25em;
+  line-height: 1.6;
+}
+.map--url a {
+  font-family: 'Montserrat', sans-serif;
+}
+.map--url a:link,
+.map--url a:visited {
+  color: #000;
+}
+.map--url a:hover {
+  color: #808080;
+}
 .padding {
   margin-top: 200px;
 }
