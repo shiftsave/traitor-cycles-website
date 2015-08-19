@@ -2,50 +2,686 @@ Title: Dealers
 
 ----
 
-Locations: 
-
-- 
-  name: Evo
-  loclat: 47.649667
-  loclong: -122.342278
-  url: http://evo.com/seattle
-- 
-  name: GHY Bikes
-  loclat: 47.479512
-  loclong: -122.205007
-  url: 'http://www.gohuckyourself.com '
-- 
-  name: Hidden Wave
-  loclat: 48.468300
-  loclong: -122.335143
-  url: 'http://www.hiddenwave.net '
-- 
-  name: 'REI - Seattle Flagship'
-  loclat: 47.620322
-  loclong: -122.329685
-  url: http://rei.com
-- 
-  name: 'REI - Bellingham'
-  loclat: 48.730647
+locations:
+- name: Rage Cycles
+  address: 2724 N Scottsdale Rd. Scottsdale AZ 85257 USA
+  phone: 480-968-8116
+  email: info@ragecycles.com
+  url: http://www.ragecycles.com
+  loclat: 33.4785849
+  loclong: -111.92647
+- name: Adrenaline Bikes
+  address: 366 South Tustin Orange CA 92866
+  phone: 714-288-2012
+  email: www.adrenalinebikes.com
+  url: http://info@adrenalinebikes.com
+  loclat: 33.7826747
+  loclong: -117.8366056
+- name: City Bicycle Works
+  address: 2419 K St Sacramento CA 95816 USA
+  phone: 916.447.2453
+  email: info@citybicycleworks.com
+  url: http://citybicycleworks.com
+  loclat: 38.5742276
+  loclong: -121.4740465
+- name: Cranky's Bikes
+  address: 1014 State Street Santa Barbara CA 93101
+  phone: (805) 963-7433
+  url: http://www.crankysbikes.com
+  loclat: 34.422028
+  loclong: -119.702213
+- name: Cycle World Bicycles
+  address: 8627 Reseda Blvd. Northridge CA 91324 usa
+  phone: 818-349-6900
+  email: info@cycleworldbikes.com
+  url: http://cycleworldbikes.com
+  loclat: 34.227164
+  loclong: -118.536462
+- name: Hyland Bicycle
+  address: 1515 Meridian Avenue San Jose CA 95125
+  phone: (408) 269-8833
+  email: sales@hylandbikes.com
+  url: http://www.hylandbikes.com
+  loclat: 37.2976901
+  loclong: -121.9139906
+- name: LA Brakeless
+  address: 12220 Venice Blvd. Los Angeles CA 90066 USA
+  phone: 310-313-6300
+  email: labrakeless@gmail.com
+  url: http://www.labrakeless.com
+  loclat: 34.0043067
+  loclong: -118.4316182
+- name: Orange 20
+  address: 4351 Melrose Avenue Los Angeles CA 90029
+  phone: 323.662.4537
+  email: thehub@orange20bikes.com
+  url: http://www.orange20bikes.com
+  loclat: 34.083808
+  loclong: -118.2951377
+- name: REI - Berkeley
+  address: 1338 San Pablo Ave. Berkeley CA 94702-1094
+  phone: 510-527-4140
+  url: http://www.rei.com
+  loclat: 37.8789939
+  loclong: -122.296276
+- name: REI - Sacramento
+  address: 1790 Expo Parkway Sacramento CA 95815
+  phone: 916-924-8900
+  url: http://www.rei.com
+  loclat: 38.597641
+  loclong: -121.449856
+- name: REI - San Carlos
+  address: 1119 Industrial Road San Carlos CA 94070
+  phone: 6505082330
+  url: http://www.rei.com
+  loclat: 37.5038323
+  loclong: -122.2467497
+- name: REI - Santa Monica
+  address: 402 Santa Monica Blvd Santa Monica CA 90401
+  phone: 310-458-4370
+  url: http://www.rei.com
+  loclat: 34.0164818
+  loclong: -118.4947758
+- name: REI - Tustin
+  address: 2962 El Camino Real Tustin CA 92782
+  phone: 714-505-0205
+  url: http://www.rei.com
+  loclat: 33.7214393
+  loclong: -117.7956198
+- name: Roaring Mouse Cycles
+  address: 934 Old Mason Street The Presidio of San Francisco San Francisco CA 94129 USA
+  phone: 415.753.6272
+  email: chris@roaringmousecycles.com
+  url: http://www.roaringmousecycles.com
+  loclat: 37.8052401
+  loclong: -122.4687436
+- name: Pearl Velo
+  address: 4421 West 43rd Ave Denver CO 80212 USA
+  phone: 720 468 3220
+  email: pearlvelo@me.com
+  url: http://www.pearlvelo.com
+  loclat: 39.7748888
+  loclong: -105.0444145
+- name: REI - Denver
+  address: 1416 Ploclat:te Street Denver CO 80202
+  phone: 303-756-3100
+  url: http://www.rei.com
+  loclat: 39.7555992
+  loclong: -105.0097781
+- name: Road34
+  address: 1213 W. Elizabeth St Fort Collins CO 80521 USA
+  phone: 970.491.9934
+  url: http://www.road34.com
+  loclat: 40.574331
+  loclong: -105.0983261
+- name: Velorution Cycles
+  address: 1077 Main Ave Durango CO 81301 USA
+  phone: 970.259.1975
+  email: atlas@papawheeliesbikeshop.com
+  url: http://www.papawheelies.net
+  loclat: 37.2754447
+  loclong: -107.8805357
+- name: Ace Metric Cycles
+  address: 444 W New England Ave Winter Park  FL 32789
+  phone: 407-790-7802
+  email: ace.metric@gmail.com
+  url: http://www.acemetric.blogspot.com
+  loclat: 28.5955759
+  loclong: -81.35578029999999
+- name: REI - Atlanta
+  address: 1800 N.E. Expressway Atlanta GA 30329
+  phone: 404-633-6508
+  url: http://www.rei.com
+  loclat: 33.8398543
+  loclong: -84.32125070000001
+- name: REI - Perimeter
+  address: 1165 Perimeter Center West Suite 200 Atlanta GA 30338
+  phone: 770-901-9200
+  url: http://www.rei.com
+  loclat: 33.9290201
+  loclong: -84.3489117
+- name: REI - Lincoln Park
+  address: 1466 North Halsted Street Chicago IL 60642
+  phone: 312-951-6020
+  url: http://www.rei.com
+  loclat: 41.908325
+  loclong: -87.6484458
+- name: REI - Rockville
+  address: 1701 Rockville Pike Suite A-7 Rockville MD 20852
+  phone: 301-230-7670
+  url: http://www.rei.com
+  loclat: 39.060891
+  loclong: -77.12411399999999
+- name: Central District Cyclery
+  address: 52 Monroe Center Grand Rapids MI 49503 USA
+  phone: 616.990.1402
+  email: spinful@gmail.com
+  url: http://www.centraldcyclery.com
+  loclat: 42.9643699
+  loclong: -85.66850330000001
+- name: The Hub Bike Cooperative - South Minneapolis
+  address: 3020 Minnehaha Ave S Minneapolis MN 55406 USA
+  phone: 612-729-0437
+  email: thehub@thehubbikecoop.biz
+  url: http://thehubbikecoop.org
+  loclat: 44.947587
+  loclong: -93.234259
+- name: The Hub Bike Cooperative - West Bank
+  address: 301 Cedar Ave S. Minneapolis MN 55454
+  phone: 612-238-3593
+  email: thehub@thehubbikecoop.biz
+  url: http://thehubbikecoop.org
+  loclat: 44.97098159999999
+  loclong: -93.2469615
+- name: Mock Orange Bikes
+  address: 492 West End Blvd. Winston Salem NC 27101 USA
+  phone: 336-722-6678
+  email: info@mockorangebikes.com
+  url: http://www.mockorangebikes.com
+  loclat: 36.100955
+  loclong: -80.260644
+- name: Recycles
+  address: 908-A Spring Garden St. Greensboro NC 27403 usa
+  phone: 336.370.9099
+  email: merritt@recyclesbikeshop.com
+  url: http://www.recyclesbikeshop.com/
+  loclat: 36.066758
+  loclong: -79.8031699
+- name: The Hub at Backcountry Outdoors
+  address: 49 Pisgah Highway Suite
+  phone: 828.884.8670
+  email: backcountry@citcom.net
+  url: http://www.backcountryoutdoors.com
+  loclat: 35.2737106
+  loclong: -82.7047151
+- name: Two Wheeler Dealer
+  address: 4408 Wrightsville Ave Wilmington NC 28403 USA
+  phone: 910-799-6444
+  email: twowheelerdealer@juno.com
+  url: http://www.bikesarefun.com
+  loclat: 34.2139472
+  loclong: -77.88808519999999
+- name: Omaha Bicycle Co.
+  address: 6015 Maple St Omaha NE 68104
+  phone: (402) 315-9900
+  loclat: 41.2847974
+  loclong: -96.0055107
+- name: Bikeworks Albuquerque
+  address: 2839 Carlisle NE Suite 180 Albuquerque NM 87110 USA
+  phone: 505-884-0341
+  email: bikeworksABQ@gmail.com
+  url: http://www.bikeworksabq.com/
+  loclat: 35.1138374
+  loclong: -106.6058568
+- name: Fixed and Free Bike Shop
+  address: 114 Tulane SE Albuquerque NM 87106 USA
+  phone: (505) 255-0586
+  email: fixedandfree@gmail.com
+  url: http://fixedandfree.com
+  loclat: 35.0793726
+  loclong: -106.6066704
+- name: CC Cyclery and Co
+  address: 530 east 13th st New York NY 10009 USA
+  phone: 646.602.6944
+  email: continuumcycles@gmail.com
+  url: http://continuumcycles.com
+  loclat: 40.728905
+  loclong: -73.979546
+- name: REI - Soho
+  address: 303 Lafayette St New York NY 10012
+  phone: 212-680-1938
+  url: http://www.rei.com
+  loclat: 40.7247289
+  loclong: -73.99542220000001
+- name: Paradise Garage
+  address: 921 North High St. Columbus OH 43201 USA
+  phone: 614.299.0899
+  url: http://www.paradisegarage.com
+  loclat: 39.9811702
+  loclong: -83.0046375
+- name: Crows Feet Commons
+  address: 875 NW Brooks St Bend OR 97701 U.S.A.
+  phone: (541) 728-0066
+  url: http://crowsfeetcommons.com
+  loclat: 44.0593829
+  loclong: -121.314962
+- name: evo in Portland
+  address: 200 SE MLK Jr. Blvd Portland OR 97214
+  phone: (503) 972-5850
+  url: http://www.evo.com/portland.aspx
+  loclat: 45.5213023
+  loclong: -122.6614587
+- name: Life Cycle
+  address: 1733 Pearl Street Eugene OR 97401 USA
+  phone: 541-686-2994
+  url: http://www.lifecyclebikeshop.com
+  loclat: 44.0405737
+  loclong: -123.0893281
+- name: REI - Portland
+  address: 1405 NW Johnson St. Suite 150 Portland OR 97209
+  phone: 503-221-1938
+  url: http://www.rei.com
+  loclat: 45.5289172
+  loclong: -122.6857603
+- name: Revolver Bikes
+  address: 6509 N. Interstate Ave Portland OR 97217 USA
+  phone: 503-285-1084
+  email: info@revolverbikes.com
+  url: http://www.revolverbikes.com
+  loclat: 45.5701639
+  loclong: -122.6824141
+- name: The Bike Commuter
+  address: 8301 SE 13th Ave Portland OR 97202 USA
+  phone: 503.505.9200
+  email: info@pdxbikecommuter.com
+  url: http://pdxbikecommuter.com
+  loclat: 45.4628343
+  loclong: -122.6531605
+- name: The Hub Cyclery
+  address: 1001 NW Wall Street Suite 102 Bend OR 97701 USA
+  phone: 541 647 2614
+  email: thehubcyclery@gmail.com
+  url: http://Thehubcyclerybend.com
+  loclat: 44.059981
+  loclong: -121.31353
+- name: Veloce Bicycles
+  address: 3202 SE Hawthorne Blvd. Portland OR 97214 USA
+  phone: 503-234-8400
+  email: info@velocebicycles.com
+  url: http://www.velocebicycles.com
+  loclat: 45.5119149
+  loclong: -122.6325078
+- name: Community Bikes and Boards
+  address: 712 South 4th St Philadelphia PA 19147
+  phone: 267-861-0544
+  email: communitybikesandboards@gmail.com
+  url: http://communitybikesandboards.com/
+  loclat: 39.940236
+  loclong: -75.1496524
+- name: Wheel Wright Bike Shop
+  address: 1120 Old York Road Abington PA 19001
+  phone: 215-884-6331
+  email: sales@awwbs.com
+  url: http://www.awwbs.com/Welcome.html
+  loclat: 40.1153249
+  loclong: -75.1216367
+- name: Crazy Cat - Redd Rock
+  address: 5650 N Desert Blvd. El Paso TX 79912 USA
+  phone: 915-585-9666
+  url: http://www.crazycatcyclery.com
+  loclat: 31.865297
+  loclong: -106.5765179
+- name: Crazy Cat - Airport
+  address: 6625 Montana Ave. El Paso TX 79925 USA
+  phone: 915.772.9666
+  email: crazycatcyclery@hotmail.com
+  url: http://www.crazycatcyclery.com
+  loclat: 31.7900075
+  loclong: -106.3966654
+- name: Fast Folks
+  address: 1201 east Cesar Chavez Austin TX 78702 USA
+  phone: 512.689.1169
+  email: contact@fastfolks.com
+  url: http://www.fastfolks.com
+  loclat: 30.259606
+  loclong: -97.732518
+- name: KLS Cyclery
+  address: 1917 N. Main Street Suite B Houston TX 77009
+  phone: 713-228-3180
+  email: klscyclery@gmail.com
+  url: http://http://www.klscyclery.com
+  loclat: 29.7766906
+  loclong: -95.36220999999999
+- name: Sugar Cycles
+  address: 5330 Highway 6 Suite 108 Missouri City TX 77459
+  phone: 281-261-2900
+  email: info@sugarcycles.com
+  url: http://www.sugarcycles.com
+  loclat: 29.5736729
+  loclong: -95.5756001
+- name: Transit Bicycle Company
+  address: 1915 Greenville Ave suite 155 Dallas TX 75204 USA
+  phone: 214.219.2453
+  email: transitbikes@gmail.com
+  url: http://http://www.transitbikes.com
+  loclat: 32.8139505
+  loclong: -96.7705034
+- name: REI - Salt Lake City
+  address: 3285 East 3300 South Salt Lake City UT 84109
+  phone: 801-486-2100
+  url: http://www.rei.com
+  loclat: 40.7008332
+  loclong: -111.8010118
+- name: Skyline Cycle
+  address: 834 Washington Blvd. Ogden UT 84067 USA
+  phone: 801-394-7700
+  email: skylinecycle@gmail.com
+  url: http://www.skylinecyclery.com
+  loclat: 41.2494226
+  loclong: -111.9694142
+- name: Urban Downfall Cycles
+  address: 335 East University Pkwy Orem UT 84058 USA
+  phone: 801-691-0250
+  email: nathan@urbandownfall.com
+  url: http://www.urbandownfall.com
+  loclat: 40.2734893
+  loclong: -111.702931
+- name: REI - Bailey's Crossroads
+  address: 3509 Carlin Springs Rd. Bailey's Crossroads VA 22041
+  phone: 703-379-9400
+  url: http://www.rei.com
+  loclat: 38.8489128
+  loclong: -77.1233317
+- name: REI - Tysons
+  address: 8209 Watson Street Tysons VA 22102
+  phone: 703-506-1938
+  url: http://www.rei.com
+  loclat: 38.918405
+  loclong: -77.228636
+- name: evo in Seattle
+  address: 3500 Stone Way N Seattle WA 98103 U.S.A.
+  phone: (206) 973-4470
+  url: http://www.evo.com/seattle
+  loclat: 47.6496674
+  loclong: -122.3422783
+- name: GHY Bikes
+  address: 909 South 3rd st. Renton Wa 98057 USA
+  phone: 425.227.4825
+  url: http://www.gohuckyourself.com
+  loclat: 47.4795117
+  loclong: -122.2050074
+- name: Hidden Wave
+  address: 896 S Burlington BLVD Burlington WA 98221
+  phone: (360) 757-4998
+  email: ajm.adam@hiddenwave.net
+  url: http://www.hiddenwave.net
+  loclat: 48.4682998
+  loclong: -122.3351434
+- name: REI - Bellingham
+  address: REI - Bellingham 400 36th St. Bellingham WA 98225
+  phone: 360-647-8955
+  url: http://www.rei.com
+  loclat: 48.7306469
   loclong: -122.472115
-  url: http://rei.com
-- 
-  name: 'REI - Redmond'
-  loclat: 47.671146
-  loclong: -122.118628
-  url: http://rei.com
-- 
-  name: 'REI - Spokane'
+- name: REI - Redmond
+  address: 7500 166th Ave. N.E. Redmond WA 98052
+  phone: 425-882-1158
+  url: http://www.rei.com
+  loclat: 47.6711456
+  loclong: -122.1186276
+- name: REI - Seattle Flagship
+  address: 222 Yale Ave. N. Seattle WA 98109-5429
+  phone: 206-223-1944
+  url: http://www.rei.com
+  loclat: 47.6202074
+  loclong: -122.3295182
+- name: REI - Spokane
+  address: N. 1125 Monroe St. Spokane WA 99201
+  phone: 509-328-9900
+  url: http://www.rei.com
   loclat: 47.667696
   loclong: -117.427061
-  url: http://rei.com
-- 
-  name: School of Bike
-  loclat: 47.66204
-  loclong: -122.33337
-  url: http://schoolofbike.com/
-- 
-  name: Wheelsport East
-  loclat: 47.638112
-  loclong: -117.197047
-  url: 'http://wheelsporteast.com '
+- name: School of Bike
+  address: 4516 Meridian Ave Seattle WA 98103 U.S.A.
+  phone: 2066320111
+  email: seattleschoolofbike@gmail.com
+  url: http://www.yelp.com/biz/school-of-bike-seattle
+  loclat: 47.662045
+  loclong: -122.333372
+- name: Wheelsport East
+  address: 606 North Sullivan Road Beradaoe  WA 99037 USA
+  phone: 509-921-7729
+  email: josh@wheelsporteast.com
+  url: http://www.wheelsporteast.com
+  loclat: 47.6381117
+  loclong: -117.1970475
+- name: REI- Madison
+  address: 7483 W. Towne Way Madison WI 53719
+  phone: 608-833-6680
+  url: http://www.rei.com
+  loclat: 43.05655609999999
+  loclong: -89.5126037
+- name: The Hub Bicycles
+  address: 1160 Alpine LN
+  phone: 307-200-6144
+  email: info@thehubbikes.com
+  url: http://www.thehubbikes.com
+  loclat: 34.2394044
+  loclong: -117.2325014
+- name: BikeBike Inc.
+  address: 1501 17 Ave SW Calgary AB T2T 0E2 Canada
+  phone: 403.457.2453
+  email: http://www.bikebike.ca/
+  url: http://info@bikebike.ca
+  loclat: 51.0376984
+  loclong: -114.0967438
+- name: Dream Cycle
+  address: 1010 Commercial Drive Vancouver BC V5L3W9 Canada
+  phone: 604.253.3737
+  email: dreamcycleinfo@gmail.com
+  url: http://dream-cycle.com/
+  loclat: 49.2755421
+  loclong: -123.0693472
+- name: Mighty Riders
+  address: 10 East Broadway Vancouver BC V5T 1V6 CANADA
+  phone: 604 879 8705
+  email: info@mightyriders.ca
+  url: http://www.mightyriders.ca/
+  loclat: 49.2629933
+  loclong: -123.1047265
+- name: Super Champion
+  address: 245 Main St. Vancouver BC V6A 2S7 Canada
+  phone: 604.689.3610
+  loclat: 49.2825093
+  loclong: -123.0996181
+- name: Union Street Cycle
+  address: 247 Union St Vancouver BC V6A 2B2 Canada
+  phone: 604.255.5097
+  loclat: 49.277653
+  loclong: -123.0980775
+- name: Velocity Cycles
+  address: 209-20167 96th Ave. Walnut Grove (Langley) BC V1M 3C5 Canada
+  phone: 604-882-8356
+  url: http://www.velocitycycles.ca/
+  loclat: 49.17701109999999
+  loclong: -122.6608188
+- name: Liberty Street Cyclery
+  address: Unit 125 171 E. Liberty St. Toronto ON M6K 3P6 Canada
+  phone: 416-516-8880
+  email: info@libertycyclery.com
+  url: http://www.libertycyclery.com
+  loclat: 43.63836999999999
+  loclong: -79.4184338
+- name: Phat Moose Cycles
+  address: 28 Hazel St. Ottawa ON K1S 0G2 Canada
+  phone: 613.231.2427
+  email: info@phatmoosecycles.com
+  url: http://www.phatmoosecycles.com/
+  loclat: 45.4080119
+  loclong: -75.67931589999999
+- name: Bikurious
+  address: 1757 rue Amherst Montreal QC H2L 3L7 Canada
+  phone: 514.313.7521
+  email: info@revolutionmontreal.com
+  url: http://www.revolutionmontreal.com/
+  loclat: 45.5192615
+  loclong: -73.56096029999999
+- name: Manfred Bikes
+  address: Urakoitsijantie 15 PORVOO 06450 FINLAND
+  phone: 358400344345
+  email: manfred@manfredbikes.net
+  url: http://manfredbikes.net
+  loclat: 60.3671385
+  loclong: 25.5887242
+- name: basis Fahrradwarenladen
+  address: Blumenstrasse. 15 Stuttgart 70182 Germany
+  phone: 4971131534925
+  email: basisbikes@googlemail.com
+  url: http://www.fahrradwarenladen.de
+  loclat: 48.77408
+  loclong: 9.18675
+- name: Bikeboutique
+  address: Koolweg 34 Elsoo 6181BM Netherlands
+  phone: 31 46 437 50 56
+  email: info@bikeboutique.eu
+  url: http://www.bikeboutique.eu
+  loclat: 50.9480535
+  loclong: 5.7757171
+- name: MagicDownhill
+  address: Vers l'eglise 20 Dompierre 1563
+  phone: 0041 (0) 79 230 58 75
+  email: info@magicdownhill.ch
+  url: http://www.magicdownhill.ch
+  loclat: 46.8532709
+  loclong: 6.9890133
+- name: Solent UK Ltd t/a Windwave
+  address: Units D2 / D3 Heritage Business Park Heritage Way Gosport PO12 4BG
+  phone: 02392 505320
+  email: office@windwave.co.uk
+  url: http://windwave.co.uk/traitorsite/traitor-dealers-pub.html
+  loclat: 50.81765
+  loclong: -1.1535148
+- name: Surf Sales
+  address: Point Break North Road Shorncliffe Folkestone Kent CT20 3UH United Kingdom
+  phone: 01303 850553
+  email: seanr@surf-sales.com
+  loclat: 51.0806269
+  loclong: 1.1388828
+- name: REI - Anchorage
+  address: 1200-A W Northern Lights Blvd Anchorage AK 99503
+  phone: 907-272-4565
+  url: http://www.rei.com
+  loclat: 61.1944312
+  loclong: -149.9087504
+- name: REI - Berkeley
+  address: 1338 San Pablo Ave. Berkeley CA 94702-1094
+  phone: 510-527-4140
+  url: http://www.rei.com
+  loclat: 37.8789939
+  loclong: -122.296276
+- name: REI - Sacramento
+  address: 1790 Expo Parkway Sacramento CA 95815
+  phone: 916-924-8900
+  url: http://www.rei.com
+  loclat: 38.597641
+  loclong: -121.449856
+- name: REI - San Carlos
+  address: 1119 Industrial Road San Carlos CA 94070
+  phone: 6505082330
+  url: http://www.rei.com
+  loclat: 37.5038323
+  loclong: -122.2467497
+- name: REI - Santa Monica
+  address: 402 Santa Monica Blvd Santa Monica CA 90401
+  phone: 310-458-4370
+  url: http://www.rei.com
+  loclat: 34.0164818
+  loclong: -118.4947758
+- name: REI - Tustin
+  address: 2962 El Camino Real Tustin CA 92782
+  phone: 714-505-0205
+  url: http://www.rei.com
+  loclat: 33.7214393
+  loclong: -117.7956198
+- name: REI - Denver
+  address: 1416 Ploclat:te Street Denver CO 80202
+  phone: 303-756-3100
+  url: http://www.rei.com
+  loclat: 39.7555992
+  loclong: -105.0097781
+- name: REI - Atlanta
+  address: 1800 N.E. Expressway Atlanta GA 30329
+  phone: 404-633-6508
+  url: http://www.rei.com
+  loclat: 33.8398543
+  loclong: -84.32125070000001
+- name: REI - Perimeter
+  address: 1165 Perimeter Center West Suite 200 Atlanta GA 30338
+  phone: 770-901-9200
+  url: http://www.rei.com
+  loclat: 33.9290201
+  loclong: -84.3489117
+- name: REI - Lincoln Park
+  address: 1466 North Halsted Street Chicago IL 60642
+  phone: 312-951-6020
+  url: http://www.rei.com
+  loclat: 41.908325
+  loclong: -87.6484458
+- name: REI - Rockville
+  address: 1701 Rockville Pike Suite A-7 Rockville MD 20852
+  phone: 301-230-7670
+  url: http://www.rei.com
+  loclat: 39.060891
+  loclong: -77.12411399999999
+- name: REI - Soho
+  address: 303 Lafayette St New York NY 10012
+  phone: 212-680-1938
+  url: http://www.rei.com
+  loclat: 40.7247289
+  loclong: -73.99542220000001
+- name: evo in Portland
+  address: 200 SE MLK Jr. Blvd Portland OR 97214
+  phone: (503) 972-5850
+  url: http://www.evo.com/portland.aspx
+  loclat: 45.5213023
+  loclong: -122.6614587
+- name: REI - Portland
+  address: 1405 NW Johnson St. Suite 150 Portland OR 97209
+  phone: 503-221-1938
+  url: http://www.rei.com
+  loclat: 45.5289172
+  loclong: -122.6857603
+- name: REI - Salt Lake City
+  address: 3285 East 3300 South Salt Lake City UT 84109
+  phone: 801-486-2100
+  url: http://www.rei.com
+  loclat: 40.7008332
+  loclong: -111.8010118
+- name: REI - Bailey's Crossroads
+  address: 3509 Carlin Springs Rd. Bailey's Crossroads VA 22041
+  phone: 703-379-9400
+  url: http://www.rei.com
+  loclat: 38.8489128
+  loclong: -77.1233317
+- name: REI - Tysons
+  address: 8209 Watson Street Tysons VA 22102
+  phone: 703-506-1938
+  url: http://www.rei.com
+  loclat: 38.918405
+  loclong: -77.228636
+- name: evo in Seattle
+  address: 3500 Stone Way N Seattle WA 98103 U.S.A.
+  phone: (206) 973-4470
+  url: http://www.evo.com/seattle
+  loclat: 47.6496674
+  loclong: -122.3422783
+- name: REI - Bellingham
+  address: REI - Bellingham 400 36th St. Bellingham WA 98225
+  phone: 360-647-8955
+  url: http://www.rei.com
+  loclat: 48.7306469
+  loclong: -122.472115
+- name: REI - Redmond
+  address: 7500 166th Ave. N.E. Redmond WA 98052
+  phone: 425-882-1158
+  url: http://www.rei.com
+  loclat: 47.6711456
+  loclong: -122.1186276
+- name: REI - Seattle Flagship
+  address: 222 Yale Ave. N. Seattle WA 98109-5429
+  phone: 206-223-1944
+  url: http://www.rei.com
+  loclat: 47.6202074
+  loclong: -122.3295182
+- name: REI - Spokane
+  address: N. 1125 Monroe St. Spokane WA 99201
+  phone: 509-328-9900
+  url: http://www.rei.com
+  loclat: 47.667696
+  loclong: -117.427061
+- name: REI- Madison
+  address: 7483 W. Towne Way Madison WI 53719
+  phone: 608-833-6680
+  url: http://www.rei.com
+  loclat: 43.05655609999999
+  loclong: -89.5126037

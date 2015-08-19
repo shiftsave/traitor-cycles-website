@@ -11,10 +11,18 @@ fields:
     type: structure
     entry: >
       <strong>{{name}}</strong>
-      {{url}}<br />
     fields:
       name:
         label: Store Name
+        type: text
+      address:
+        label: Address
+        type: text
+      email:
+        label: Email
+        type: text
+      url:
+        label: Website
         type: text
       loclat:
         label: Latitude
@@ -22,6 +30,3 @@ fields:
       loclong:
         label: Longitude
         type: text
-      url:
-        label: Website
-        type: url

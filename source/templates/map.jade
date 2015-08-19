@@ -9,9 +9,12 @@
         foreach($page->locations()->toStructure() as $location):
           $json[] = array(
             'name' => (string)$location->name(),
-            'url' => (string)$location->url(),
+            'address' => (string)$location->address(),
+            'lat' => (string)$location->loclat(),
             'lng' => (string)$location->loclong(),
-            'lat' => (string)$location->loclat()
+            'phone' => (string)$location->phone(),
+            'email' => (string)$location->email(),
+            'url' => (string)$location->web()
           );
         endforeach;
       ?>
