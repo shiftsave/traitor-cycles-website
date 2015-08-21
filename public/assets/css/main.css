@@ -1382,8 +1382,6 @@ input {
 .map--url {
   padding: 3px 0;
   text-align: left;
-}
-.map--url a {
   font-family: 'Montserrat', sans-serif;
 }
 .map--url a:link,

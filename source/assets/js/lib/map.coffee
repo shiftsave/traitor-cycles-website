@@ -178,8 +178,9 @@ module.exports =
         lat: lat
         lng: lng
         title: "#{location.name}"
+        icon: '/assets/images/pin.png'
         infoWindow:
-          content: "<div class='map--name'>#{location.name}</div><div class='map--url'>#{location.address}</div><div class='map--url'>#{location.phone}</div><div class='map--url'><a href='#{location.url}'>#{location.url}</div>"
+          content: "<div class='map--name'>#{location.name}</div><div class='map--url'><a href='http://maps.google.com/?q=#{location.address}'>#{location.address}</a></div><div class='map--url'>#{location.phone}</div><div class='map--url'><a href='#{location.url}'>#{location.url}</div>"
     # @map.fitBounds bounds
 
 
