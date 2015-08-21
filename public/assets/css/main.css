@@ -461,6 +461,13 @@ p.lead {
   margin: 15px 0;
   text-align: center;
 }
+p.lead a {
+  margin-left: 10px;
+  border-bottom: 3px solid transparent;
+}
+p.lead a:hover {
+  border-bottom: 3px solid;
+}
 a {
   text-decoration: none;
   transition: all 300ms ease;
@@ -1147,6 +1154,12 @@ body {
   width: 100%;
   clear: both;
 }
+.footer a {
+  margin-left: 10px;
+}
+.footer a:hover {
+  color: #00e871;
+}
 .footer .menu {
   padding-top: 20px;
 }
@@ -1360,8 +1373,15 @@ input {
 }
 .map--name {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.25em;
+  font-size: 1.08em;
   line-height: 1.6;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.map--url {
+  padding: 3px 0;
+  text-align: left;
 }
 .map--url a {
   font-family: 'Montserrat', sans-serif;

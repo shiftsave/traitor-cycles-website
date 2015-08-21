@@ -10,16 +10,6 @@
       <div style="background-image:url(<?php echo $page->image($slide['slider_image'])->url() ?>)" class="full-width--slider"></div><?php endforeach; ?>
     </div>
   </div><img src="<?php echo $page->files()->find($page->hero_image())->url() ?>" class="padded"/>
-  <div class="details">
-    <div class="features--text">
-      <h5>features</h5>
-    </div>
-    <ul class="product--features--list"><?php $features = $page->features()->split() ?><?php foreach($features as $feature): ?>
-      <li><img src="<?php echo url('assets/images/') . $feature . '.svg' ?>"/>
-        <p><?php echo htmlspecialchars($feature = str_replace('_', ' ', $feature), ENT_QUOTES, 'UTF-8'); ?></p>
-      </li><?php endforeach; ?>
-    </ul>
-  </div>
   <div class="tab-container">
     <ul data-persist="true" class="tabs">
       <li class="selected"><a href="#view1" class="tab-nav text-link"><span>Description</span>

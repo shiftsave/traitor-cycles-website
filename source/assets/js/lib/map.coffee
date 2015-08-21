@@ -131,20 +131,21 @@ module.exports =
 
     @buildMarkers() if locations?
     @listeners()
+    @geolocate()
 
-  # geolocate: ->
-  #   GMaps.geolocate
-  #     success: (position) ->
-  #       map.setCenter position.coords.latitude, position.coords.longitude
+  geolocate: ->
+    GMaps.geolocate
+      success: (position) ->
+        map.setCenter position.coords.latitude, position.coords.longitude
 
-  #     error: (error) ->
-  #       alert 'Geolocation failed: ' + error.message
+      error: (error) ->
+        alert 'Geolocation failed: ' + error.message
 
-  #     not_supported: ->
-  #       alert 'Your browser does not support geolocation'
+      not_supported: ->
+        alert 'Your browser does not support geolocation'
 
-  #     always: ->
-  #       alert 'Done!'
+      always: ->
+        alert 'Done!'
 
   listeners: ->
     @$search.on 'keyup', =>
@@ -178,7 +179,7 @@ module.exports =
         lng: lng
         title: "#{location.name}"
         infoWindow:
-          content: "<div class='map--name'>#{location.name}</div><div class='map--url'><a href='#{location.url}'>#{location.url}</div>"
+          content: "<div class='map--name'>#{location.name}</div><div class='map--url'>#{location.address}</div><div class='map--url'>#{location.phone}</div><div class='map--url'><a href='#{location.url}'>#{location.url}</div>"
     # @map.fitBounds bounds
 
 

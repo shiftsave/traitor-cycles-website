@@ -17,16 +17,16 @@
 
     img.padded(src!="<?php echo $page->files()->find($page->hero_image())->url() ?>")
 
-    .details
-      .features--text
-          h5 features
-      ul.product--features--list
-        - $features = $page->features()->split()
-        - foreach($features as $feature):
-          li
-            img(src!="<?php echo url('assets/images/') . $feature . '.svg' ?>")
-            p= $feature = str_replace('_', ' ', $feature)
-        - endforeach;
+    //- .details
+    //-   .features--text
+    //-       h5 features
+    //-   ul.product--features--list
+    //-     - $features = $page->features()->split()
+    //-     - foreach($features as $feature):
+    //-       li
+    //-         img(src!="<?php echo url('assets/images/') . $feature . '.svg' ?>")
+    //-         p= $feature = str_replace('_', ' ', $feature)
+    //-     - endforeach;
 
     .tab-container
       ul(class="tabs" data-persist="true" )

@@ -4,10 +4,10 @@ Title: Register Your Frame
 
 Text: 
 
-<p class="lead"> Fill up the following fields to register your frame with us. <p>
+<p class="lead"> Use this form to register your frame or email us at <a href='mailto:info@traitorcycles.com'>info@traitorcycles.com</a><p>
 
 <div class="register-form">
-<form id="search" action="http://localhost:8000/assets/php/mail_handler.php" method="post">
+<form id='search' enctype="text/plain" method="get" action="mailto:info@traitorcycles.com">
 <input type="text" name="name" onfocus="this.value='';" value="Name" class="sfield"/>
 <input type="text" name="email" onfocus="this.value='';" value="Email" class="sfield"/>
 <input type="text" name="serial" onfocus="this.value='';" value="Serial Number" class="sfield"/>
