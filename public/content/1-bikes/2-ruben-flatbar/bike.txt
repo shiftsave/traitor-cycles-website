@@ -2,10 +2,6 @@ Title: Ruben Flatbar
 
 ----
 
-Headline: Ruben Flatbar
-
-----
-
 Slider: 
 
 - 
@@ -21,10 +17,6 @@ Slider:
 ----
 
 Price-complete: Full Bike: $999 |  Frame Only: $549
-
-----
-
-Hero-image: ruben-flat_black.jpg
 
 ----
 
@@ -80,3 +72,10 @@ Geometry:
 ----
 
 Features: Flatbar, Disc_Brakes, Gears, Rear_Rack_Mounts
+
+----
+
+Product-color: 
+
+- 
+  slider_image: ruben-flat_black.jpg

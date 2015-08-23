@@ -2,10 +2,6 @@ Title: Slot
 
 ----
 
-Headline: Slot
-
-----
-
 Slider: 
 
 - 
@@ -18,10 +14,6 @@ Slider:
 ----
 
 Price-complete: Full Bike: $1,399  |  Frame Only: $499
-
-----
-
-Hero-image: slot_black.jpg
 
 ----
 
@@ -77,3 +69,12 @@ Geometry:
 ----
 
 Features: Flatbar, Disc_Brakes, Gears, Front_and_Rear_Rack_Mounts
+
+----
+
+Product-color: 
+
+- 
+  slider_image: slot_orange.jpg
+- 
+  slider_image: slot-pewter.jpg

@@ -704,9 +704,13 @@ input {
   background-position: center;
   position: relative;
 }
-.full-width h1,
-.full-width--slider h1,
-.full-width--text h1 {
+.product--colors .slider .full-width--slider {
+  height: 600px;
+  background-size: contain;
+  padding: 20px 0;
+  margin: 40px 0 20px 0;
+}
+.product--colors h1 {
   max-width: 720px;
   color: #000;
   width: 100%;
@@ -721,9 +725,7 @@ input {
           transform: translate(-50%, -50%);
 }
 @media screen and (min-width: 460px) {
-  .full-width h1,
-  .full-width--slider h1,
-  .full-width--text h1 {
+  .product--colors h1 {
     width: 80%;
     margin-top: 20px;
   }

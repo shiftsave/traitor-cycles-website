@@ -2,10 +2,6 @@ Title: Crusade
 
 ----
 
-Headline: Crusade
-
-----
-
 Slider: 
 
 - 
@@ -14,10 +10,6 @@ Slider:
 ----
 
 Price-complete: Frame Only: $599
-
-----
-
-Hero-image: crusade_black.jpg
 
 ----
 
@@ -55,3 +47,12 @@ Geometry:
 ----
 
 Features: Steel_Frame, Custom_Dropout
+
+----
+
+Product-color: 
+
+- 
+  slider_image: crusade_blue.jpg
+- 
+  slider_image: crusade_black.jpg

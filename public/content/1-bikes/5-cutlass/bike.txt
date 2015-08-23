@@ -2,22 +2,16 @@ Title: Cutlass
 
 ----
 
-Headline: Cutlass
-
-----
-
 Slider: 
 
 - 
-  slider_image: temp.jpg
+  slider_image: cutlass-01.jpg
+- 
+  slider_image: cutlass-02.jpg
 
 ----
 
 Price-complete: Full Bike: $499  |  Frame Only: $299
-
-----
-
-Hero-image: cutlass_black.jpg
 
 ----
 
@@ -70,3 +64,12 @@ Geometry:
 ----
 
 Features: Flatbar, Caliper_Brakes, Single_Speed
+
+----
+
+Product-color: 
+
+- 
+  slider_image: cutlass_blue.jpg
+- 
+  slider_image: cutlass_black.jpg

@@ -5,11 +5,15 @@ pages: false
 files: true
 fields:
   title:
-    label: Page Title
+    label: Bike Name
+    type: text
+  
+  price_complete:
+    label: Bike Price
     type: text
 
   slider:
-    label: Slider Images
+    label: Photography Slider
     type: structure
     fields:
       slider_image:
@@ -17,18 +21,14 @@ fields:
         type: select
         options: images
 
-  headline:
-    label: Bike Name
-    type: text
-  
-  price_complete:
-    label: Price
-    type: text
-
-  hero_image:
-    label: Hero Image
-    type: select
-    options: images
+  product_color:
+    label: Bike Colors
+    type: structure
+    fields:
+      slider_image:
+        label: Image
+        type: select
+        options: images
 
   features:
     label: Features

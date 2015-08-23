@@ -2,22 +2,16 @@ Title: Wander
 
 ----
 
-Headline: Wander
-
-----
-
 Slider: 
 
 - 
-  slider_image: temp.jpg
+  slider_image: wander-01.jpg
+- 
+  slider_image: wander-02.jpg
 
 ----
 
 Price-complete: Full Bike: $1,299  |  Frame Only: $399
-
-----
-
-Hero-image: wander_black.jpg
 
 ----
 
@@ -73,3 +67,10 @@ Geometry:
 ----
 
 Features: Dropbar, Disc_Brakes, Gears, Front_and_Rear_Rack_Mounts
+
+----
+
+Product-color: 
+
+- 
+  slider_image: wander_yellow.jpg

@@ -15,7 +15,13 @@
           .full-width--slider(style!="background-image:url(<?php echo $page->image($slide['slider_image'])->url() ?>)")
         - endforeach;
 
-    img.padded(src!="<?php echo $page->files()->find($page->hero_image())->url() ?>")
+    .product--colors
+      .darken
+      .slider
+        - $color_slides = $page->product_color()->yaml()
+        - foreach($color_slides as $slide):
+          .full-width--slider(style!="background-image:url(<?php echo $page->image($slide['slider_image'])->url() ?>)")
+        - endforeach;
 
     //- .details
     //-   .features--text

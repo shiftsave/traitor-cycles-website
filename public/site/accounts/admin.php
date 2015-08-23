@@ -7,8 +7,8 @@ password: >
 language: en
 role: admin
 history:
-  - secondary-pages/register-your-frame
-  - bikes/slot
-  - dealers
-  - bikes
+  - bikes/cutlass
+  - bikes/wander
   - bikes/crusade
+  - bikes/slot
+  - bikes/ruben-flatbar
