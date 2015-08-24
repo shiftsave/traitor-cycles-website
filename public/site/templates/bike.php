@@ -12,8 +12,7 @@
   </div>
   <div class="product--colors">
     <div class="darken"></div>
-    <div class="slider"><?php $color_slides = $page->product_color()->yaml() ?><?php foreach($color_slides as $slide): ?>
-      <div style="background-image:url(<?php echo $page->image($slide['slider_image'])->url() ?>)" class="full-width--slider"></div><?php endforeach; ?>
+    <div class="slider"><?php $color_slides = $page->product_color()->yaml() ?><?php foreach($color_slides as $slide): ?><img src="<?php echo $page->image($slide['slider_image'])->url() ?>"/><?php endforeach; ?>
     </div>
   </div>
   <div class="tab-container">
