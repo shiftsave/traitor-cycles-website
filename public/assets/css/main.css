@@ -541,6 +541,17 @@ input {
   background: transparent;
   border: 3px solid #fff;
 }
+ol {
+  font-size: 0.9em;
+  color: #fff;
+  text-align: left;
+  line-height: 1.6em;
+  list-style-type: circle;
+}
+ol li {
+  padding: 10px;
+  border-top: 1px solid #00e871;
+}
 .sg-section {
   max-width: 600px;
   padding: 30px;
@@ -888,6 +899,10 @@ input {
   text-align: left;
   padding: 10px;
   border: 1px solid #fff;
+}
+.tabcontents h5 {
+  color: #00e871;
+  padding: 30px 0;
 }
 .tabcontents--dark {
   padding: 10px 0 120px 0;

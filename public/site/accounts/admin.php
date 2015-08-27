@@ -7,8 +7,8 @@ password: >
 language: en
 role: admin
 history:
+  - bikes/crusade
   - bikes/cutlass
   - bikes/wander
-  - bikes/crusade
   - bikes/slot
   - bikes/ruben-flatbar
