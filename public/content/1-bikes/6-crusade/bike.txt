@@ -5,7 +5,11 @@ Title: Crusade
 Slider: 
 
 - 
-  slider_image: BCRCX14_0968-(ZF-0634-73221-1-002).jpg
+  slider_image: crusade-race.jpg
+- 
+  slider_image: crusade-jump.JPG
+- 
+  slider_image: crusade-race-side.jpg
 
 ----
 
@@ -35,9 +39,25 @@ With our new system you set your tension one time and you can do wheel changes w
 
 Specs: 
 
-| Specification          |                                    |
-| ---------------------- |----------------------------------------------|
-| Sold as Frame and Fork Only                |  |
+| Specification          | Description                                                            |
+| ---------------------- |------------------------------------------------------------------------|
+| Fork                   | Crusade Chromoloy Disc Fork                                            |
+| Headset                | FSA Orbit ITA (ZS44 Top Cup/EC44 Lower Cup)                            |
+| Stem                   | Promax DA-285                                                          |
+| Handlebar              | Promax HB-3188, 25mm Rise, 70mm width, 31.8                            |
+| Shifters               | N/A                                                                    |
+| Grip/Tape              | FSA HB-030 Black Cork Tape                                             |
+| Seatpost               | Promax SP-228, 27.2mm, 300                                             |
+| Saddle                 | Velo VL-1125                                                           |
+| Crank                  | FSA CK-C7189S Comet Compact 386 MegaExo 36 tooth chainring             |
+| Bottom Bracket         | FSA (included with crank)                                              |
+| Wheels                 | Weinmann DA19 Rims, Sha-Dar 14/15 Double Butted Black Stainless Spokes |
+| Tires                  | Schwalbe Racing Ralph HS 425 Performance 700 x 33c                     |
+| Tubes                  | Kenda 700x28C/32C F/V 60mm                                             |
+| Cassette/Cog           | 9 to 1 Converter with 16 tooth Cog                                     |
+| Brakes                 | TRP Hylex Hydraulic Brakes                                             |
+| Brakes/Rotors           | TRP Hylex Hydraulic Brakes/ TRP Rotor 160mm with Brake                |
+| Pedals                 | Not included                                                           |
 
 ----
 
@@ -65,6 +85,17 @@ Features: Steel_Frame, Custom_Dropout
 Product-color: 
 
 - 
-  slider_image: crusade_blue.jpg
+  slider_image: crusade_green.jpg
 - 
-  slider_image: crusade_black.jpg
+  slider_image: crusade_gray.jpg
+
+----
+
+Product-details: 
+
+- 
+  slider_image: details_crusade_01.jpg
+- 
+  slider_image: details_crusade_02.jpg
+- 
+  slider_image: details_crusade_03.jpg

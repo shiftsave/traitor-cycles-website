@@ -85,3 +85,14 @@ Product-color:
   slider_image: cutlass_blue.jpg
 - 
   slider_image: cutlass_black.jpg
+
+----
+
+Product-details: 
+
+- 
+  slider_image: details_cutlass_01.jpg
+- 
+  slider_image: details_cutlass_02.jpg
+- 
+  slider_image: details_cutlass_03.jpg

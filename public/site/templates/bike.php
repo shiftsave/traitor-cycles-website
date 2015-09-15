@@ -15,6 +15,11 @@
     <div class="slider"><?php $color_slides = $page->product_color()->yaml() ?><?php foreach($color_slides as $slide): ?><img src="<?php echo $page->image($slide['slider_image'])->url() ?>"/><?php endforeach; ?>
     </div>
   </div>
+  <div class="product--details">
+    <div class="darken"></div>
+    <div class="slider--details"><?php $detail_slides = $page->product_details()->yaml() ?><?php foreach($detail_slides as $slide): ?><a href="<?php echo $page->image($slide['slider_image'])->url() ?>" data-featherlight="image" class="gallery"><img src="<?php echo $page->image($slide['slider_image'])->url() ?>"/></a><?php endforeach; ?>
+    </div>
+  </div>
   <div class="tab-container">
     <ul data-persist="true" class="tabs">
       <li class="selected"><a href="#view1" class="tab-nav text-link"><span>Description</span>

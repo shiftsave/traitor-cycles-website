@@ -1579,3 +1579,14 @@ input {
 .dark-bg p {
   color: #000;
 }
+.product--details {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.product--details a {
+  margin: 2%;
+}
+.product--details a img {
+  border-radius: 800px;
+  border: 3px solid #fff;
+}

@@ -5,14 +5,13 @@ Title: Ruben Flatbar
 Slider: 
 
 - 
-  slider_image: >
-    Mac_Holt_2014_1_Mac_Holt_2014_1_2014_-13.jpg
+  slider_image: ruben-black-pike-place-sign.jpg
 - 
-  slider_image: >
-    Mac_Holt_2014_1_Mac_Holt_2014_1_2014_-3.jpg
+  slider_image: ruben-ocean.jpg
 - 
-  slider_image: >
-    Mac_Holt_2014_1_Mac_Holt_2014_1_2014_-12.jpg
+  slider_image: ruben-black-pike-place.jpg
+- 
+  slider_image: ruben-black-side.jpg
 
 ----
 
@@ -91,3 +90,14 @@ Product-color:
 
 - 
   slider_image: ruben-flat_black.jpg
+
+----
+
+Product-details: 
+
+- 
+  slider_image: details_ruben-flat_01.jpg
+- 
+  slider_image: details_ruben-flat_02.jpg
+- 
+  slider_image: details_ruben-flat_03.jpg

@@ -34,6 +34,19 @@ $ ->
       }
     ]
 
+  $('.slider--details').slick
+    dots: false,
+    slidesToShow: 3,
+    responsive: [
+      {
+        breakpoint: 480,
+        settings:
+          slidesToShow: 3,
+          slidesToScroll: 1
+      }
+    ]
+
+
   $(document).ready ->
   scroll_pos = 0
   $(document).scroll ->
@@ -50,7 +63,7 @@ $ ->
     dynamics.animate $underlines[$(this).parent().index()], {width: '100%'}, type: dynamics.spring
   $(document).on 'mouseleave', '.text-link', ->
     dynamics.animate $underlines[$(this).parent().index()], { width: '0' }, type: dynamics.spring
-  
+
   $(document).on 'mouseenter', '.top-text-link', ->
     dynamics.animate $underlines2[$(this).parent().index()], {width: '100%'}, type: dynamics.spring
   $(document).on 'mouseleave', '.top-text-link', ->

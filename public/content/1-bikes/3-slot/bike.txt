@@ -5,11 +5,17 @@ Title: Slot
 Slider: 
 
 - 
-  slider_image: slot-03.jpg
+  slider_image: slot-pedaling.jpg
 - 
-  slider_image: slot-01.jpg
+  slider_image: slot-mid-trip.jpg
 - 
-  slider_image: slot-02.jpg
+  slider_image: slot-joel-foliage.jpg
+- 
+  slider_image: slot-truck.jpg
+- 
+  slider_image: slot-outback.JPG
+- 
+  slider_image: slot-closeup.jpg
 
 ----
 

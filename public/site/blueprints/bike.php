@@ -7,7 +7,7 @@ fields:
   title:
     label: Bike Name
     type: text
-  
+
   price_complete:
     label: Bike Price
     type: text
@@ -30,6 +30,15 @@ fields:
         type: select
         options: images
 
+  product_details:
+    label: Detail Photography
+    type: structure
+    fields:
+      slider_image:
+        label: Image
+        type: select
+        options: images
+
   features:
     label: Features
     type: checkboxes
@@ -45,15 +54,15 @@ fields:
       Front_and_Rear_Rack_Mounts: Front and Rear Rack Mounts
       Steel_Frame: Steel Frame
       Custom_Dropout: Custom Dropout
-  
+
   description:
     label: Description
     type: textarea
-  
+
   specs:
     label: Description
     type: textarea
-  
+
   geometry:
     label: Geometry
     type: textarea

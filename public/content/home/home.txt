@@ -5,14 +5,13 @@ Title: Home
 Slider: 
 
 - 
-  slider_image: >
-    mac_holt_2014_1_mac_holt_2014_1_2014_-14.jpg
+  slider_image: ruben-traffic.jpg
 - 
-  slider_image: >
-    mac_holt_2014_1_mac_holt_2014_1_2014_-15.jpg
+  slider_image: slot-road.jpg
 - 
-  slider_image: >
-    mac_holt_2014_1_mac_holt_2014_1_2014_-7.jpg
+  slider_image: ruben-closeup.jpg
+- 
+  slider_image: ruben-pike-place.jpg
 
 ----
 

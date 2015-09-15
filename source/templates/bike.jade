@@ -20,8 +20,16 @@
       .slider
         - $color_slides = $page->product_color()->yaml()
         - foreach($color_slides as $slide):
-          //- .full-width--slider(style!="background-image:url(<?php echo $page->image($slide['slider_image'])->url() ?>)")
           img(src!="<?php echo $page->image($slide['slider_image'])->url() ?>")
+        - endforeach;
+    
+    .product--details
+      .darken
+      .slider--details
+        - $detail_slides = $page->product_details()->yaml()
+        - foreach($detail_slides as $slide):
+          a(href!="<?php echo $page->image($slide['slider_image'])->url() ?>", data-featherlight='image' class='gallery')
+            img(src!="<?php echo $page->image($slide['slider_image'])->url() ?>")
         - endforeach;
 
     //- .details

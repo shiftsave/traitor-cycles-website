@@ -5,9 +5,11 @@ Title: Wander
 Slider: 
 
 - 
-  slider_image: wander-01.jpg
+  slider_image: wander-duo.jpg
 - 
-  slider_image: wander-02.jpg
+  slider_image: wander-solo.jpg
+- 
+  slider_image: wander-fast.jpg
 
 ----
 
@@ -88,3 +90,14 @@ Product-color:
 
 - 
   slider_image: wander_yellow.jpg
+
+----
+
+Product-details: 
+
+- 
+  slider_image: details_wander_01.jpg
+- 
+  slider_image: details_wander_02.jpg
+- 
+  slider_image: details_wander_03.jpg
