@@ -401,7 +401,7 @@ table thead,
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-@media screen and (min-width: 460px) {
+@media screen and (min-width: 660px) {
   h1,
   h5,
   table thead,
@@ -713,6 +713,7 @@ ol li {
 }
 .full-width,
 .full-width--slider,
+.slider--container,
 .full-width--text {
   height: 75vh;
   background-size: cover;
@@ -747,8 +748,16 @@ ol li {
     margin-top: 20px;
   }
 }
-.full-width--slider {
+.full-width--slider,
+.slider--container {
   opacity: 0.8;
+}
+.full-width--slider img,
+.slider--container img {
+  opacity: 0.8;
+}
+.slider--container {
+  opacity: 1;
 }
 .full-width--text {
   height: 400px;

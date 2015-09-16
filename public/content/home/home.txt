@@ -6,12 +6,13 @@ Slider:
 
 - 
   slider_image: ruben-traffic.jpg
-- 
-  slider_image: slot-road.jpg
-- 
-  slider_image: ruben-closeup.jpg
+  slider_desc: Bars Over Cars
 - 
   slider_image: ruben-pike-place.jpg
+  slider_desc: Born And Bred In The Northwest
+- 
+  slider_image: ruben-badge.jpg
+  slider_desc: Branded For Life
 
 ----
 
@@ -48,4 +49,4 @@ Featured-subheading: Most Popular Bikes
 
 ----
 
-Headline: Born and bred in the pacific northwest
+Headline: 

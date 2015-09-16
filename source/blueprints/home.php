@@ -19,11 +19,14 @@ fields:
         label: Image
         type: select
         options: images
-  
+      slider_desc:
+        label: headline
+        type: text
+
   hero_subheading:
     label: Page SubHeading
     type:text
-  
+
   hero_content:
     label: Content
     type: textarea
