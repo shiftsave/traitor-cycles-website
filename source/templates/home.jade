@@ -18,34 +18,18 @@ body
     .lead--text
         h2= $page->hero_subheading()
         p.lead= $page->hero_content()
-        //- a(class='primary-button', href='#') Learn More
-  
+        
     .slider--container
-      //- h1.slider--text= $page->headline()
+      .centered
+        h1= $page->featured_product()
+        h4.white= $page->featured_description()
+        a(class='primary-button', href='/bikes/crusade') Check it out!
+
       .darken
-      h1.slider--text= $page->headline()
       .slider
-        - $slides = $page->slider()->yaml()
+        - $slides = $page->featured_photo()->yaml()
         - foreach($slides as $slide):
-          .slider--container
-            h1.slider--text= $slide['slider_desc']
-            .full-width--slider(style!="background-image:url(<?php echo $page->image($slide['slider_image'])->url() ?>)")
+          .full-width--slider(style!="background-image:url(<?php echo $page->image($slide['slider_image'])->url() ?>)")
         - endforeach;
-
-    //- .featured-products
-    //-   h2= $page->featured_subheading()
-    //-   .slider--multiple
-    //-     - $products = $page->featured()->toStructure()
-    //-     - foreach($products as $product): 
-    //-       .half-width
-    //-         a.product--image(href!="<?php echo url('bikes/') ?>/<?php echo $product->product_page()?>")
-    //-           img(src!="<?php echo $page->image($product->product_image())->url() ?>")
-    //-         a.featured--link(href!="<?php echo $product->product_page()?>" class="text-link" )
-    //-           h3= $product->product_name()
-    //-           .underline
-    //-         p= $product->product_desc()
-    //-     - endforeach;
-
-      a(class='primary-button', href!="<?php echo url('bikes/') ?>") View All Bikes
 
 - snippet('footer')

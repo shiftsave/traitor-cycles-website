@@ -24,29 +24,19 @@ Hero-content: We use Steel in our bikes because steel is both durable and much m
 
 ----
 
-Featured: 
-
-- 
-  product_name: Ruben
-  product_desc: >
-    The Ruben is a Pacific Northwest style
-    commuter bike designed with performance
-    in mind.
-  product_image: ruben.jpg
-  product_page: bikes/ruben-dropbar
-- 
-  product_name: Slot
-  product_desc: >
-    The Slot is our 29er bike built to rally
-    trails as well as the rigors of
-    adventure touring.
-  product_image: slot.jpg
-  product_page: bikes/slot
-
-----
-
-Featured-subheading: Most Popular Bikes
-
-----
-
 Headline: 
+
+----
+
+Featured-product: Time to go to battle with the Crusade!
+
+----
+
+Featured-description: Cross season is on the horizon and the Crusade is ready to take you to victory.
+
+----
+
+Featured-photo: 
+
+- 
+  slider_image: crusade_green.jpg

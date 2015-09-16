@@ -887,6 +887,10 @@ ol li {
   z-index: 4;
   width: 100%;
 }
+.centered h1 {
+  max-width: 820px;
+  margin: 0 auto;
+}
 .centered h4 {
   margin: 20px;
   text-align: center;

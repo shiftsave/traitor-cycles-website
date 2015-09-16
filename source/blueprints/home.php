@@ -31,27 +31,19 @@ fields:
     label: Content
     type: textarea
 
-  featured_subheading:
-    label: Subheading
+  featured_product:
+    label: Featured Product
     type: text
 
-  featured:
-    label: Products Listing
+  featured_description:
+    label: Featured Product Description
+    type: text
+
+  featured_photo:
+    label: Featured Product Image
     type: structure
     fields:
-      product_name:
-        label: Name
-        type: text
-
-      product_desc:
-        label: Description
-        type: textarea
-
-      product_image:
+      slider_image:
         label: Image
         type: select
-        options: images
-
-      product_page:
-        label: Details Page
-        type: page
+        options: images 
