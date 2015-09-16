@@ -2,8 +2,7 @@
 <footer role="contentinfo" class="footer">
   <nav>
     <ul class="menu">
-      <li><a href="/secondary-pages/register-your-frame" class="top-text-link"><span>Register your frame</span>
-          <div class="underline2"></div></a></li>
+      <li><a href="/secondary-pages/register-your-frame">Register your frame</a></li>
       <li><a href="/secondary-pages/warranty">Warranty</a></li>
     </ul>
     <ul class="social">

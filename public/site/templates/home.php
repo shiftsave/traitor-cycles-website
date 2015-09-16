@@ -18,10 +18,9 @@
   <div class="slider--container">
     <div class="centered">
       <h1><?php echo htmlspecialchars($page->featured_product(), ENT_QUOTES, 'UTF-8'); ?></h1>
-      <h4 class="white"><?php echo htmlspecialchars($page->featured_description(), ENT_QUOTES, 'UTF-8'); ?></h4><a href="/bikes/crusade" class="primary-button">Check it out!</a>
+      <h4 class="white"><?php echo htmlspecialchars($page->featured_description(), ENT_QUOTES, 'UTF-8'); ?></h4><a href="/bikes/crusade" class="primary-button">Check it out</a>
     </div>
-    <div class="darken"></div>
-    <div class="slider"><?php $slides = $page->featured_photo()->yaml() ?><?php foreach($slides as $slide): ?>
+    <div class="home--featured--product"><?php $slides = $page->featured_photo()->yaml() ?><?php foreach($slides as $slide): ?>
       <div style="background-image:url(<?php echo $page->image($slide['slider_image'])->url() ?>)" class="full-width--slider"></div><?php endforeach; ?>
     </div>
   </div>

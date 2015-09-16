@@ -23,12 +23,11 @@ body
       .centered
         h1= $page->featured_product()
         h4.white= $page->featured_description()
-        a(class='primary-button', href='/bikes/crusade') Check it out!
-
-      .darken
-      .slider
+        a(class='primary-button', href='/bikes/crusade') Check it out
+      .home--featured--product
         - $slides = $page->featured_photo()->yaml()
         - foreach($slides as $slide):
+          //- img(src!="<?php echo $page->image($slide['slider_image'])->url() ?>")
           .full-width--slider(style!="background-image:url(<?php echo $page->image($slide['slider_image'])->url() ?>)")
         - endforeach;
 

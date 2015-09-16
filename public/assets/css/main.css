@@ -641,7 +641,7 @@ ol li {
 }
 @media screen and (max-width: 550px) {
   .tabs .tab-nav {
-    font-size: 1.5em;
+    font-size: 1.4em;
   }
 }
 @media screen and (max-width: 460px) {
@@ -758,6 +758,7 @@ ol li {
 }
 .slider--container {
   opacity: 1;
+  margin-bottom: 20px;
 }
 .full-width--text {
   height: 400px;
@@ -922,6 +923,11 @@ ol li {
 .register-form .sfield {
   background: #000;
 }
+.home--featured--product {
+  margin: 0 auto;
+  max-width: 1200px;
+  margin-top: 80px;
+}
 html,
 body {
   height: 100%;
@@ -933,7 +939,6 @@ body {
   text-align: left;
   line-height: 60px;
   height: 60px;
-  overflow: hidden;
   padding: 0;
   transition: 400ms cubic-bezier(0.19, 1, 0.22, 1);
   -webkit-transition: 400ms cubic-bezier(0.19, 1, 0.22, 1);
@@ -960,6 +965,16 @@ body {
 }
 .responsive-nav .primary-button {
   padding-bottom: 12px;
+  transition: all 0ms linear;
+  -webkit-transition: all 0ms linear;
+  -moz-transition: all 0ms linear;
+  -ms-transition: all 0ms linear;
+  -o-transition: all 0ms linear;
+}
+@media screen and (max-width: 800px) {
+  .responsive-nav .primary-button {
+    margin-top: -200px;
+  }
 }
 @media screen and (min-width: 800px) {
   .responsive-nav {
@@ -984,7 +999,7 @@ body {
   font-size: 20px;
   line-height: 150px;
   text-align: center;
-  margin-top: -80px;
+  margin-top: -380px;
 }
 @media screen and (min-width: 800px) {
   .responsive-nav ul li {
@@ -1031,6 +1046,9 @@ body {
         -ms-transform: scale(1.1);
             transform: scale(1.1);
   }
+  .responsive-nav.active ul li {
+    margin-top: -80px;
+  }
   .responsive-nav.active .primary-button {
     margin: 0 auto;
     margin-top: 65px;
@@ -1044,6 +1062,11 @@ body {
 .responsive-nav.active .primary-button {
   position: relative;
   top: 420px;
+  transition: all 0ms linear;
+  -webkit-transition: all 0ms linear;
+  -moz-transition: all 0ms linear;
+  -ms-transition: all 0ms linear;
+  -o-transition: all 0ms linear;
   position: absolute;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
